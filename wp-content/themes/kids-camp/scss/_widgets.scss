@@ -1,0 +1,149 @@
+.widget .hentry {
+	float: left;
+	width: 100%;
+}
+
+.widget .widget-title {
+    font-weight: 600;
+}
+
+.widget .widget-title:empty {
+	margin-bottom: 0;
+}
+
+.widget-area li {
+	line-height: 2;
+}
+
+.widget-title a {
+	text-decoration: none;
+}
+
+.widget_categories ul,
+.widget_archive ul {
+	text-align: right;
+	margin-left: 0;
+}
+
+.widget_categories li,
+.widget_archive li {
+	display: block;
+	height: 1%;
+	overflow: hidden;
+}
+
+.widget_categories ul a,
+.widget_archive ul a {
+	float: left;
+}
+
+.essential-widgets .featured-image,
+.essential-widgets .entry-title,
+.essential-widgets .entry-meta,
+.essential-widgets .entry-content,
+.essential-widgets .entry-summary {
+	margin-bottom: 7px;
+}
+
+.ewfeaturedpostpageimage .left .featured-image,
+.ewfeaturedpostpageimage .right .featured-image {
+    width: 20%;
+}
+
+.ewfeaturedpostpageimage .left .entry-container,
+.ewfeaturedpostpageimage .right .entry-container {
+	width: 80%;
+}
+
+.widget.ew-featured-post .hentry {
+	display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+	display: -ms-flexbox;  /* TWEENER - IE 10 */
+	display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+	display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+/* Calendar widget */
+.widget.widget_calendar table {
+	margin: 0;
+}
+
+.widget_calendar td,
+.widget_calendar th {
+	line-height: 3.4;
+	padding: 0;
+	text-align: center;
+}
+
+.widget_calendar tbody a {
+	display: block;
+}
+
+/* Recent Posts widget */
+.widget-area .gallery {
+	margin: 0;
+}
+
+.widget_recent_entries .post-date {
+	display: block;
+	font-size: 13px;
+	font-size: 0.8125rem;
+	line-height: 1.615384615;
+	margin-bottom: 0.538461538em;
+}
+
+.widget_recent_entries li:last-child .post-date {
+	margin-bottom: 0;
+}
+
+/* RSS widget */
+.widget_rss .rsswidget img {
+	margin-top: -0.375em;
+}
+
+.widget_rss .rss-date,
+.widget_rss cite {
+	display: block;
+	font-size: 13px;
+	font-size: 0.8125rem;
+	font-style: normal;
+	line-height: 1.615384615;
+	margin: 14px 0;
+}
+
+.widget_rss .rssSummary:last-child {
+	margin-bottom: 2.1538461538em;
+}
+
+.widget_rss li:last-child :last-child {
+	margin-bottom: 0;
+}
+
+/* Tag Cloud widget */
+.tagcloud a {
+	display: inline-block;
+	line-height: 1;
+	margin: 0 0.1875em 0.4375em 0;
+	padding: 6px 14px;
+}
+
+.tagcloud a:hover,
+.tagcloud a:focus {
+	outline: 0;
+}
+
+.widget-area .essential-widgets .tagcloud a,
+.widget-area .essential-widgets .tagcloud.rounded-corners a {
+	border: none;
+	padding: 7px 14px;
+	text-transform: lowercase;
+}
+
+.widget-area .essential-widgets .tagcloud a:hover,
+.widget-area .essential-widgets .tagcloud a:focus,
+.widget-area .essential-widgets .tagcloud.rounded-corners a:hover,
+.widget-area .essential-widgets .tagcloud.rounded-corners a:focus {
+	background-color: transparent;
+}

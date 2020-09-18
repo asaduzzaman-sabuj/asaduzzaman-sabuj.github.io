@@ -1,0 +1,112 @@
+#numbers-section.section,
+#numbers-section + .section,
+#countdown-section + .section,
+#promotion-section + .section,
+#team-content-section.section,
+.custom-header + .section,
+.recent-blog-section.section,
+#feature-slider-section + .section,
+.section.no-section-heading,
+#featured-content-section,
+#portfolio-content-section,
+#testimonial-content-section,
+#clients-section,
+#services-section,
+#contact-section,
+.why-choose-us-section.section {
+	padding-top: 42px;
+}
+
+.custom-header + #collection-section.no-section-heading,
+#feature-slider-section + #collection-section.no-section-heading,
+.custom-header + #portfolio-content-section.no-section-heading,
+#feature-slider-section + #portfolio-content-section.no-section-heading {
+	padding-top: 30px;
+}
+
+#testimonial-content-section,
+#contact-section,
+#numbers-section.section,
+#gallery-content-section {
+	padding-top: 70px;
+}
+
+// .services-section .hentry-inner .post-thumbnail {
+// 	width: 100%;
+// }
+
+.services-section .entry-category .meta-icon {
+	margin-right: 7px;
+}
+
+.services-section .section-content-wrapper {
+    text-align: center;
+}
+
+.services-section .section-content-wrapper .hentry-inner {
+    display: block;
+}
+
+.services-section.special .section-content-wrapper .hentry {
+	margin-bottom: 30px;
+}
+
+.services-section.special .section-content-wrapper, 
+.services-section.special .section-content-wrapper .hentry {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.services-section .hentry {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+.services-section .section-content-wrapper {
+    position: relative;
+    text-align: center;
+}
+
+.special-image {
+    text-align: center;
+}
+
+.special-image { 
+    margin-bottom: 28px;
+}
+
+.services-section .view-all-button .more-button {
+	text-align: center;
+}
+
+.services-section .post-thumbnail {
+	margin-right: 14px;
+}
+
+.services-section .post-thumbnail img {
+    max-width: 75px;
+}
+
+#services-section {
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.services-section.classic .post-thumbnail a img {
+    margin: 0 auto;
+}
+
+.services-section.classic .section-content-wrapper {
+    padding: 0 30px;
+}
+
+.services-section.classic .hentry {
+    margin-bottom: 30px;
+}
+
+.view-all-button {
+    width: 100%;
+    clear: both;
+    text-align: center;
+}

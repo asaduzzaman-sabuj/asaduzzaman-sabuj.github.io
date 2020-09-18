@@ -1,0 +1,47 @@
+.numbers-content-wrapper.section-content-wrapper .entry-summary,
+.numbers-content-wrapper.section-content-wrapper .entry-content {
+	margin: 7px 0 0;
+}
+
+#numbers-section.section .hentry-inner {
+	height: 0px;
+    padding-bottom: 100%;
+    position: relative;
+    width: 100%;
+}
+
+#numbers-section.section .hentry-inner {
+	height: 0px;
+    padding-bottom: 100%;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-style: dashed;
+    overflow: hidden;
+}
+
+#numbers-section.section .hentry-inner .entry-header {
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+#numbers-section.section .hentry-inner .entry-summary {
+    position: absolute;
+    top: 60%;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 100%;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#numbers-section .numbers-section-thumbnail {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}

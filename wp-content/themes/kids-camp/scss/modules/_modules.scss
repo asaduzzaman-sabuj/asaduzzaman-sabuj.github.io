@@ -1,0 +1,92 @@
+.section {
+	clear: both;
+	display: block;
+	position: relative;
+	width: 100%;
+}
+
+.section .section-heading-wrapper {
+	padding-top: 0;
+}
+
+body .section {
+	padding-top: 0;
+}
+
+.section-heading-wrapper {
+	max-width: 780px;
+	margin: 0 auto;
+	padding: 35px 30px 28px 30px;
+	text-align: center;
+	width: 100%;
+}
+
+.section-title {
+	line-height: 1.17;
+	margin: 0;
+	text-transform: capitalize;
+}
+
+/**    14.1 - Slider
+*/
+  		@import "slider";
+
+
+/**    14.2 - Featured Content & Portfolio
+*/
+  		@import "featured-content-and-portfolio";
+
+
+/**    14.3 - Hero Content
+*/
+  		@import "hero-content";
+
+
+/**    14.4 - Testimonials
+*/
+  		@import "testimonials";
+
+
+/**    14.5 - Promotional Headline
+*/
+  		@import "promotional-headline";
+
+
+/**    14.6 - Others
+*/
+  		@import "others";
+
+
+/**    14.7 - Services Section
+*/
+  		@import "services-section";
+
+
+/**	  14.8 - Team Content Section
+*/
+  		@import "team-content-section";
+
+
+/**	  14.9 - Numbers Section
+*/
+  		@import "numbers-section";
+
+
+/**	  14.10 - Woocommerce
+*/
+  		@import "woocommerce";
+
+
+/**	  14.11 - Client Section
+*/
+  		@import "client-section";
+
+
+/**	  14.12 - Collection Section
+*/
+  		@import "collection-section";
+
+
+/**	  14.13 - Countdown Section
+*/
+  		@import "countdown-section";

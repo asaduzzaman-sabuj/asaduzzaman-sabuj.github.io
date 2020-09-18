@@ -1,0 +1,81 @@
+#countdown-section.section {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+	padding: 0;
+}
+
+#countdown-section .post-thumbnail {
+	margin-bottom: 0;
+}
+
+#countdown-section .entry-container {
+	padding: 70px 10px 50px 10px;
+}
+
+#countdown-section .content-wrapper {
+	text-align: center;
+}
+
+#clock {
+	overflow: hidden;
+}
+
+#clock span {
+	display: block;
+}
+
+#clock > .count-down {
+	display: inline-block;
+	float: left;
+	font-style: normal;
+	font-stretch: normal;
+	letter-spacing: normal;
+	position: relative;
+	padding: 21px 20px 20px 20px;
+	text-align: center;
+	width: 50%;
+}
+
+#clock > .count-down:after {
+	content: ":";
+	font-size: 48px;
+	font-size: 3rem;
+  	font-weight: 600;
+  	line-height: 0;
+  	position: absolute;
+  	top: 50%;
+  	right: -4px;
+  	transform: translateY(-50%);
+}
+
+#clock > .count-down:last-child:after,
+#clock > .count-down:nth-child(2):after {
+	content: none;
+}
+
+#clock > .count-down > span {
+	padding: 15px;
+}
+
+#countdown-section .countdown-number {
+	display: block;
+	font-size: 42px;
+	font-size: 2.625rem;
+	font-weight: 600;
+	line-height: normal;
+}
+
+#countdown-section .countdown-label {
+	font-size: 13px;
+	font-size: 0.8125rem;
+	font-weight: 600;
+	line-height: 2.15;
+	text-transform: uppercase;
+}

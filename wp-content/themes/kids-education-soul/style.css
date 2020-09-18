@@ -1,0 +1,619 @@
+/*
+Theme Name: Kids Education Soul
+Theme URI: https://wenthemes.com/item/wordpress-themes/kids-education-soul/
+Author: WEN Themes
+Author URI: https://wenthemes.com/
+Description: Kids Education Soul is a Simple, Clean and Responsive Education WordPress theme designed specially for kids education websites. You can use Kids Education Soul theme to build website for Kindergartens, Daycare, Primary Schools, Secondary Schools, High Schools, and different other education-based websites. It is a child theme of Education Soul, another Popular Education WordPress Theme. It includes all the core features introduced in Education Soul. However, when it comes to design, Kids Education Soul comes with more clarity, kid friendly typography and colors. Although the theme is focused on educational purposes, it will be fit other business and corporate fields also. It is highly customizable with powerful Theme Options based on Customizer API. Several custom sections are available to give your home page an attractive look. It comes with several features to make a user-friendly, interactive and visually stunning website. This theme is responsive, cross-browser compatible and translation ready. Official Support Forum: https://themepalace.com/support-forum/ Full Demo: https://wenthemes.com/theme-demos/?demo=kids-education-soul
+Template: education-soul
+Version: 1.0.3
+Requires at least: 5.1
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GPLv3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: kids-education-soul
+Tags: blog, education, one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-menu, featured-images, full-width-template, sticky-post, translation-ready, theme-options, threaded-comments, footer-widgets, custom-logo
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# General
+# Typography
+# Media Queries
+# Colors
+
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+.site-header {
+	border-top: 4px solid;
+}
+
+a.custom-logo-link,
+#site-identity {
+	margin-right: 7px;
+}
+
+#front-page-home-sections .home-section {
+	margin-top: -1px;
+}
+
+#footer-widgets .footer-widget-area {
+	border-top: none;
+}
+
+a.custom-button.custom-wire {
+	border: none;
+}
+
+a.custom-button.button-secondary.header-link-button {
+	font-size: 15px;
+	padding: 10px 25px 8px 25px;
+}
+
+.header-search-box > a,
+.header-search-box > a:visited {
+	padding: 7px 14px 11px 14px;
+	height: 43px;
+	width: 43px;
+}
+
+.menu-toggle,
+a.custom-button.button-secondary.header-link-button,
+.header-search-box > a,
+.header-search-box > a:visited {
+	margin-top: 4px;
+}
+
+#colophon .footer-social {
+	margin-bottom: 15px;
+}
+
+.scrollup {
+	box-shadow: none;
+}
+
+textarea,
+input[type="text"],
+input[type="button"],
+input[type="submit"] {
+     -webkit-appearance: none;
+     border-radius: 0;
+}
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+
+body,
+button,
+input,
+select,
+textarea {
+	font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.site-title {
+	font-family: "Dosis",sans-serif;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+
+.site-description {
+	font-style: italic;
+	letter-spacing: normal;
+}
+
+#main-slider h3,
+.home-section-news-and-events h2,
+#primary #infinite-handle span button,
+a.custom-button,
+a.custom-button:visited,
+button,
+a.button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	font-weight: 600;
+}
+
+.site-title,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.main-navigation ul li a,
+.section-title,
+#footer-widgets .widget-title,
+#primary #infinite-handle span button,
+a.custom-button,
+a.custom-button:visited,
+button,
+a.button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	text-transform: uppercase;
+}
+
+.header-search-box > a,
+.header-search-box > a:visited {
+	font-size: 16px;
+}
+
+.main-navigation ul li a {
+	font-size: 15px;
+	font-weight: 400;
+}
+
+#main-slider h3 {
+	font-size: 64px;
+}
+
+#front-page-home-sections .home-section-call-to-action .section-title {
+	font-size: 46px;
+}
+
+.entry-header .entry-title {
+	font-size: 36px;
+}
+
+#front-page-home-sections .section-title,
+#education-soul-front-page-widgets .widget-title {
+	font-size: 32px;
+}
+
+#footer-widgets .widget-title {
+	font-size: 24px;
+}
+
+/*--------------------------------------------------------------
+# Media Queries
+--------------------------------------------------------------*/
+
+@media only screen and (max-width:1300px) {
+	a.custom-button.button-secondary.header-link-button {
+		margin-top: 3px;
+		padding: 10px 15px 8px 15px;
+	}
+
+	.menu-toggle,
+	a.custom-button.button-secondary.header-link-button,
+	.header-search-box > a,
+	.header-search-box > a:visited {
+		margin-top: 3px;
+	}
+
+	.menu-toggle {
+		padding: 11px 15px 10px 15px;
+	}
+
+	#main-slider h3 {
+        font-size: 51px;
+    }
+}
+
+@media only screen and (max-width:1023px) {
+	.three-columns-enabled #primary {
+		width: 100%;
+	}
+
+	.site-title {
+	    margin-top: 0;
+	    font-size: 24px;
+	}
+
+	#main-slider h3 {
+        font-size: 40px;
+    }
+
+    #main-slider p {
+    	font-size: 16px;
+    }
+
+    #front-page-home-sections .home-section-call-to-action .section-title {
+    	font-size: 36px
+    }
+
+    .entry-header .entry-title {
+    	font-size: 32px;
+    }
+
+    #front-page-home-sections .section-title,
+	#education-soul-front-page-widgets .widget-title {
+		font-size: 28px;
+	}
+
+	#footer-widgets .widget-title {
+		font-size: 22px;
+	}
+}
+
+@media only screen and (max-width:767px) {
+	.site-title {
+	    font-size: 22px;
+	}
+
+	#main-slider h3 {
+        font-size: 34px;
+    }
+
+    #front-page-home-sections .home-section-call-to-action .section-title {
+    	font-size: 32px;
+    }
+
+    .entry-header .entry-title {
+    	font-size: 28px;
+    }
+
+    #front-page-home-sections .section-title,
+	#education-soul-front-page-widgets .widget-title {
+		font-size: 24px;
+	}
+
+	#footer-widgets .widget-title {
+		font-size: 20px;
+	}
+
+	.menu-toggle,
+	a.custom-button.button-secondary.header-link-button,
+	.header-search-box > a,
+	.header-search-box > a:visited {
+		margin-top: 2px;
+	}
+
+	.menu-toggle {
+		padding: 8px 12px 7px 12px;
+	}
+
+	a.custom-button.button-secondary.header-link-button {
+	    padding: 6px 15px 6px 15px;
+	}
+
+	.header-search-box > a,
+	.header-search-box > a:visited {
+	    padding: 4px 8px;
+	    height: 37px;
+	    width: 37px;
+	}
+
+	#main-slider p {
+		display: none;
+	}
+
+	#colophon .footer-social {
+		margin-bottom: 10px;
+	}
+}
+
+@media only screen and (max-width:479px) {
+	.menu-toggle,
+	a.custom-button.button-secondary.header-link-button,
+	.header-search-box > a,
+	.header-search-box > a:visited {
+		margin-top: 0;
+	}
+
+	a.custom-logo-link,
+	#site-identity {
+		margin-right: auto;
+	}
+
+	a.custom-logo-link {
+		margin-bottom: 7px;
+	}
+}
+
+@media screen and (min-width: 910px) {
+	.main-navigation ul ul a {
+		width: 260px;
+	}
+}
+
+/*--------------------------------------------------------------
+# Colors
+--------------------------------------------------------------*/
+
+/* Main Black Text Color */
+body,
+button,
+input,
+select,
+textarea,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.site-title a,
+.site-title a:visited,
+#front-page-home-sections .section-title,
+#education-soul-front-page-widgets .widget-title,
+.home-section-latest-news .latest-news-title a {
+	color: #222;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a,
+h1 a:visited,
+h2 a:visited,
+h3 a:visited,
+h4 a:visited,
+h5 a:visited,
+h6 a:visited {
+	color: #222;
+}
+
+.site-description {
+	color: #222;
+	opacity: 0.8;
+}
+
+/* Link Green Color */
+a.custom-button.button-secondary.header-link-button,
+.custom-button.button-secondary,
+#main-slider .pager-box.cycle-pager-active,
+#main-slider .pager-box:hover,
+#main-slider .pager-box:focus,
+#main-slider .cycle-prev,
+#main-slider .cycle-next,
+#primary #infinite-handle span button,
+a.custom-button,
+a.custom-button:visited,
+button,
+a.button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.scrollup {
+	background-color: #54b77e;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
+textarea:focus {
+    border-color: #54b77e;
+}
+
+a,
+a:visited {
+	color: #54b77e;
+}
+
+/* Link Hover Flame Color */
+.top-news .top-news-title,
+a.custom-button.button-secondary.header-link-button:hover,
+a.custom-button.button-secondary.header-link-button:active,
+a.custom-button.button-secondary.header-link-button:focus,
+.custom-button.button-secondary:hover,
+.custom-button.button-secondary:active,
+.custom-button.button-secondary:focus,
+.custom-button.button-secondary:visited,
+.header-search-box > a:hover,
+.header-search-box > a:focus,
+.header-search-box > a:active,
+.header-search-box.toggled-on a,
+#main-slider .cycle-prev:hover,
+#main-slider .cycle-prev:focus,
+#main-slider .cycle-next:hover,
+#main-slider .cycle-next:focus,
+.scrollup:hover,
+.scrollup:focus,
+.scrollup:active {
+	background-color: #e4572e;
+}
+
+#primary #infinite-handle span button:hover,
+a.custom-button:hover,
+a.custom-button:focus,
+a.custom-button.custom-wire,
+a.custom-button.custom-wire:hover,
+a.custom-button.custom-wire:focus,
+button:hover,
+a.button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+#primary #infinite-handle span button:focus,
+button:focus,
+a.button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+#primary #infinite-handle span button:active,
+button:active,
+a.custom-button:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active {
+    background-color: #e4572e;
+}
+
+a:hover,
+a:focus,
+a:active,
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover,
+h1 a:focus,
+h2 a:focus,
+h3 a:focus,
+h4 a:focus,
+h5 a:focus,
+h6 a:hover,
+h1 a:active,
+h2 a:active,
+h3 a:active,
+h4 a:active,
+h5 a:active,
+h6 a:active,
+.top-news a:hover,
+.top-news a:focus,
+.top-news a:active,
+#quick-contact a:hover,
+#quick-contact a:focus,
+#quick-contact a:active,
+.site-title a:active,
+.site-title a:hover,
+.site-title a:focus,
+.home-section-services .services-item-inner h3 a:active,
+.home-section-services .services-item-inner h3 a:hover,
+.home-section-services .services-item-inner h3 a:focus,
+.home-section-latest-news .latest-news-title a:active,
+.home-section-latest-news .latest-news-title a:hover,
+.home-section-latest-news .latest-news-title a:focus,
+.sidebar .widget a:hover,
+.sidebar .widget a:focus,
+.sidebar .widget a:active {
+	color: #e4572e;
+}
+
+/* White Color */
+#footer-widgets .widget-title::after {
+	background-color: #fff;
+}
+
+.education_soul_widget_social li a {
+	border-color: #fff;
+}
+
+.top-news a,
+#quick-contact a,
+#quick-contact li:before,
+.header-search-box > a,
+.header-search-box > a:visited,
+#primary #infinite-handle span button,
+#header-social .education_soul_widget_social ul li a:before,
+.education_soul_widget_social ul li a:before,
+.recent-events-inner,
+.recent-events-inner a,
+.recent-events-inner a:visited,
+.recent-events-inner .entry-meta > span,
+a.custom-button,
+a.custom-button:visited,
+button,
+a.button, input[type="button"],
+input[type="reset"],
+input[type="submit"],
+#colophon,
+#footer-widgets,
+#footer-widgets p,
+.scrollup {
+    color: #fff;
+}
+
+.recent-events-inner a:hover,
+.recent-events-inner a:focus,
+#colophon a,
+#footer-widgets a {
+	color: #fff;
+	opacity: 0.8;
+}
+
+#header-social .education_soul_widget_social ul li a:hover:before,
+#header-social .education_soul_widget_social ul li a:focus:before,
+#colophon a:hover,
+#colophon a:focus,
+#footer-widgets a:hover,
+#footer-widgets a:focus {
+	color: #fff;
+	opacity: 1;
+}
+
+/* Main Color Tiffany Blue */
+.site-header {
+	border-color: #0097a7;
+}
+
+.header-search-box > a,
+.header-search-box > a:visited,
+#front-page-home-sections .section-title:after,
+#education-soul-front-page-widgets .widget-title:after,
+.custom-entry-date span.entry-month,
+#footer-widgets,
+#colophon {
+	background-color: #0097a7;
+}
+
+.home-section-call-to-action,
+.home-section-call-to-action:before {
+	background-color: #0097a7;
+}
+
+.wp-block-quote:not(.is-large):not(.is-style-large),
+blockquote {
+	border-color: #0097a7;
+}
+
+/* Dark Tiffany Blue */
+#tophead,
+.colophon-bottom.clear-fix {
+	background-color: #018391;
+}
+
+/* Recent News and Event Custom Color */
+.home-section-news-and-events {
+    background-color: #fef9f3;
+}
+
+.recent-events-inner .event-post {
+	background-color: #e4572e;
+}
+
+.recent-events-inner .event-post:nth-child(2n) {
+	background-color: #0097a7;
+}
+
+.recent-events-inner .event-post:nth-child(3n) {
+	background-color: #f7b200;
+}
+
+.recent-events-inner .event-post:nth-child(4n) {
+	background-color: #54b77e;
+}
+
+@media screen and (min-width: 910px) {
+   	.main-navigation ul li a:hover,
+    .main-navigation ul li a:focus,
+    .main-navigation ul li a:active,
+    .main-navigation ul li.current-menu-item > a,
+    .main-navigation ul li.current-menu-ancestor > a,
+    .main-navigation ul li:hover > a,
+    .main-navigation ul li:hover > a,
+    .main-navigation ul li:hover > a {
+        color: #e4572e;
+    }
+}

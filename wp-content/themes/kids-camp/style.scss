@@ -1,0 +1,169 @@
+/*
+Theme Name: Kids Camp
+Theme URI: https://catchthemes.com/themes/kids-camp/
+Author: Catch Themes
+Author URI: https://catchthemes.com/
+Description: Kids Camp is a free Kids and Children WordPress theme that’s perfect for kids’ education agencies. The theme is responsive, attractive and built with modern tools. You can use the theme for Montessori Schools, Day Care Centers, Learning Blog, and other Kids Academic Institutes. If you need a colorful and fun website for different educational purposes, Kids Camp fits the bill. Its vibrant and fun layout allows you to keep your website simple and uncluttered. With the vast features available in Kids Camp, you’ll be able to create a colorful, fun-looking, pleasant, and enjoyable kids website quickly. It comes with high-quality features like Featured Content, Featured Slider, Header Media, Hero Content, Portfolio, Services, Testimonials, and many more. In addition to its features, Kids Camp is Translation Ready. The theme is extremely responsive and your kids related site will look appealing on all screen sizes. For any technical issue, please post in our support forum at https://catchthemes.com/support/ For more information, check out Theme Instructions at https://catchthemes.com/themes/kids-camp/#theme-instructions and Demo at https://catchthemes.com/demo/kids-camp/
+Version: 1.1
+Requires at least: 5.1
+Tested up to: 5.5
+Requires PHP: 5.6
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: one-column, two-columns, right-sidebar, flexible-header, custom-background, custom-header, custom-menu, custom-logo, editor-style, full-width-template,  featured-image-header, featured-images, footer-widgets, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, wide-blocks, block-styles, blog, education, portfolio
+Text Domain: kids-camp
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/**
+ * Table of Contents
+ *
+ * 1.0 - variables
+ * 2.0 - Normalize
+ * 3.0 - Typography
+ * 4.0 - Elements
+ * 5.0 - Padding/Margin
+ * 6.0 - Forms
+ * 7.0 - Navigation
+ *   7.1 - Links
+ *   7.2 - Menus
+ *   7.3 - Post Navigation
+ *   7.4 - Scroll Up
+ * 8.0 - Accessibility
+ * 9.0 - Alignments
+ * 10.0 - Clearings
+ * 11.0 - Widgets
+ * 12.0 - Content
+ * 	  12.1 - Header
+ *    12.2 - Posts and pages
+ *    12.3 - Comments
+ *    12.4 - Footer
+ * 13.0 - Media
+ *    13.1 - Captions
+ *    13.2 - Galleries
+ *    13.3 - Icons
+ * 14.0 - Modules
+ *    14.1 - Slider
+ *    14.2 - Featured Content & Portfolio
+ *    14.3 - Hero Content
+ *    14.4 - Testimonials
+ *    14.5 - Promotional Headline
+ *    14.6 - Others
+ *    14.7 - Services Section
+ *	  14.8 - Team Content Section
+ *	  14.9 - Numbers Section
+ *	  14.10 - Woocommerce
+ *	  14.11 - Client Section
+ *	  14.12 - Collection Section
+ *	  14.13 - Countdown Section
+ * 15.0 - Media Queries
+ *    15.1 - >= 480px
+ *    15.2 - >= 640px
+ *    15.3 - >= 768px
+ *    15.4 - >= 1024px
+ *    15.5 - >= 1120px
+ *    15.6 - >= 1366px
+ *    15.7 - >= 1600px
+ *    15.8 - >= 1920px
+ * 16.0 - Colors
+ */
+
+/**
+ * 1.0 - variables
+ */
+
+  @import 'scss/variables';
+
+/**
+ * 2.0 - Normalize
+ *
+ * Normalizing styles have been helped along thanks to the fine work of
+ * Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+ */
+
+   @import 'scss/normalize';
+
+/**
+ * 3.0 - Typography
+ */
+    @import 'scss/typography';
+
+/**
+ * 4.0 - Elements
+ */
+
+   @import 'scss/elements';
+
+/**
+ * 5.0 - Padding/Margin
+ */
+
+   @import 'scss/padding-margin';
+
+/**
+ * 6.0 - Forms
+ */
+
+   @import 'scss/forms';
+
+/**
+ * 7.0 - Navigation
+ */
+
+   @import 'scss/navigation/navigation';
+
+/**
+ * 8.0 - Accessibility
+ */
+
+   @import 'scss/accessibility';
+
+/**
+ * 9.0 - Alignments
+ */
+
+   @import 'scss/alignments';
+
+/**
+ * 10.0 - Clearings
+ */
+
+   @import 'scss/clearings';
+
+/**
+ * 11.0 - Widgets
+ */
+
+   @import 'scss/widgets';
+
+/**
+ * 12.0 - Content
+ */
+
+   @import 'scss/content/content';
+
+/**
+ * 13.0 - Media
+ */
+
+   @import 'scss/media/media';
+
+/**
+ * 14.0 - Modules
+ */
+
+   @import 'scss/modules/modules';
+
+/**
+ * 15.0 - Media Queries
+ */
+
+   @import 'scss/media-queries/media-queries';
+
+/**
+ * 16.0  - >= Colors
+ */
+
+   @import 'scss/colors';

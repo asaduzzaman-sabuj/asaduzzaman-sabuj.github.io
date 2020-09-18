@@ -1,0 +1,307 @@
+/* Corona css By rumi */
+
+.countdown{
+    width:100%;
+    height : auto;
+    /*border : 1px solid #c4161c;*/
+    /*border-radius: 5px;*/
+    /*background : #4caf50b3;*/
+    font-family: 'SolaimanLipi', sans-serif;
+}
+.ssoft-image img {
+    width: 60%;
+    padding-left: 15px;
+    margin : 10px auto;
+}
+
+
+
+.mim {
+    margin-bottom: 40px;
+margin-top: -30px;
+}
+
+.mim_c__top {
+    background: #c4161c;
+    padding: 3px;
+    font-size: 20px;
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+    margin-right: 13px;
+    margin-left: 10px;
+    width: 15%;
+}
+.mim_c__top h2{
+    margin:0px!important;
+}
+
+.mim__slot {
+    position: absolute;
+margin-top: 55px;
+margin-left: -60px;
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+.ssoft-image img {
+    width: 27%!important;
+    overflow:hidden;
+}
+
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+.ssoft-image img {
+    width: 64% !important;
+    margin-top: 10px !important;
+    overflow:hidden;
+}
+
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.ssoft-image img {
+    width: 47% !important;
+    margin-top: 10px !important;
+}
+ }
+.mim_c__top {
+   
+    margin:0px!!important;
+    }
+@media only screen and (max-width: 600px) {
+.mim_c__top {
+   
+    font-size: 15px!important;
+    margin:0px!important;
+    }
+    .mim_c__top h2 {
+    font-size: 15px!important;
+}
+}
+
+
+
+    .coronavirus-statistics {
+        font-family: 'SolaimanLipi', sans-serif;
+        background: #8b0304;
+        text-align: center;
+        padding: 6px 0;
+      color: #fff;
+      
+    }
+    
+    .coronavirus-statistics h2 {
+        margin-top: 10px;
+        font-size: 22px;
+      
+    }
+    
+    .coronavirus-statistics .body {
+        width: 50%;
+        float: left;
+    }
+    
+    .coronavirus-statistics .body h2 {
+        background: #006747;
+        padding: 5px;
+        font-size: 20px;
+        margin-top: 8px;
+    }
+    
+    .coronavirus-statistics .body.body-world h2 {
+        background: #DA291C;
+    }
+    
+    .coronavirus-statistics .body .content {
+        margin: 5px 0;
+        border-right: 1px dotted;
+    }
+    
+    .coronavirus-statistics .body.body-world .content {
+        border: none;
+        margin-right: 2%;
+        margin-left: -2%;
+    }
+    
+    .coronavirus-statistics .body .content .text {
+        font-size: 18px;
+        color: #121212;
+    }
+    
+    .coronavirus-statistics .body .content .text.sutro {
+        font-size: 10px;
+        margin-bottom: -5px;
+    }
+    
+    .coronavirus-statistics .body .content .number {
+        background: #3d8e75;
+        width: 74%;
+        margin-left: 13%;
+        border-radius: 6px;
+        padding: 4px 4px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    
+    .coronavirus-statistics .body.body-world .content .number {
+        background: #da5858;
+    }
+    
+    .coronavirus-statistics .body.body-world .content .number.death {
+        background: #c70e00;
+        color: #fff;
+    }
+    
+    .coronavirus-statistics .body .content .number.sutro {
+        background: none;
+        color: #0009;
+        font-weight: normal;
+        font-size: 10px;
+        padding: 0;
+        margin-left: 0;
+        width: 100%;
+        margin-bottom: -10px;
+        line-height: 34px;
+    }
+    
+    .coronavirus-statistics .body.body-bangladesh .content .number.death {
+        background: #015239;
+        color: #fff;
+    }
+    
+    #widget_104166 img {
+        width: 100%;
+    }
+    
+    @media screen and (max-width: 1024px) {
+        .coronavirus-statistics .body .content .number {
+            font-size: 24px;
+        }
+    }
+
+    .coronaTable{
+    font-family: solaimanlipi;
+    display: table;
+    width: 100%;
+}
+.coronaTableRow {
+    display: table-row;
+}
+.coronaTableHeading {
+    background-color: #EEE;
+    display: table-header-group;
+}
+.coronaTableCell, .coronaTableHead {
+    border: 1px solid #999999;
+    display: table-cell;
+    padding: 3px 10px;
+}
+.coronaTableHeading {
+    background-color: #EEE;
+    display: table-header-group;
+    font-weight: bold;
+}
+.coronaTableFoot {
+    background-color: #EEE;
+    display: table-footer-group;
+    font-weight: bold;
+}
+.coronaTableBody {
+    display: table-row-group;
+}
+.aff{
+    background: #E6F6F5;border: 1px solid #ddd;padding: 0;
+    font-size: 20px;
+    padding: 15px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.mmmm{
+    background: #FDE8E9;border: 1px solid #ddd;padding: 0;
+    font-size: 20px;
+    padding: 15px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.ss {
+    background: #E8F3D9;border: 1px solid #ddd;padding: 0;
+    font-size: 20px;
+    padding: 15px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.tt {
+    background: #D4EEF9;border: 1px solid #ddd;padding: 0;
+    font-size: 20px;
+    padding: 15px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.corona-col.clogo {
+    border-right: 1px solid #4c4c4c;
+    background-image: url(https://api.coronacase.xyz/virus-logo.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 150px;
+}
+.corona-col.clogo .virus-logo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    color: #fff;
+}
+.corona-col.clogo .virus-logo h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 5px
+    
+}
+.warp {
+    /* margin: 20px auto; */
+    width: auto;
+    background: #000;
+    overflow: hidden;
+    position: relative;
+    font-family: solaimanlipi;
+    border-radius: 15px 15px 0px 0px;
+}
+.lasttf {
+    
+    text-align: center;
+    font-size: 27px;
+    padding: 5px;
+    background: #b84045;
+    color: white;
+    font-family: solaimanlipi;
+}
+.coronaTableCell{
+    width: 25%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.corona-widget {
+    border-radius: 16px 16px 0px 0px;
+
+    padding: 0;
+    border: 2px solid;
+}
+
+.coronavirus-statistics h2 {
+    margin-top: 10px;
+    font-size: 22px;
+    color: white;
+}
+.virus-logo h2{
+    color: white;
+    font-family: solaimanlipi;
+}

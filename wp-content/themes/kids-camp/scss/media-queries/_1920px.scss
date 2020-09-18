@@ -1,0 +1,9 @@
+@media screen and (min-width: 120em) {
+
+	#clients-section:after,
+	#featured-content-section:after,
+	#team-content-section:after,
+	.why-choose-us-section:after {
+	    bottom: -114px;
+	}
+}

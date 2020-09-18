@@ -1,0 +1,112 @@
+#promotion-section {
+	border: 0;
+	padding: 0;
+}
+
+#promotion-section .hentry {
+	margin: 0;
+	position: relative;
+}
+
+.post-thumbnail-background {
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.post-thumbnail-background:before {
+	bottom: 0;
+	content: "";
+	left: 0;
+	right: 0;
+	position: absolute;
+	top: 0;
+}
+
+#promotion-section .post-thumbnail-background {
+	z-index: 1;
+}
+
+#promotion-section .content-wrapper {
+	margin: 0 auto;
+	max-width: 1500px;
+	padding: 0 30px;
+}
+
+#promotion-section .entry-container {
+	margin: 42px 0;
+	position: relative;
+	z-index: 2;
+}
+
+#promotion-section.content-right .entry-container {
+	float: right;
+}
+
+#promotion-section.content-center .entry-container {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#promotion-section.text-aligned-left .entry-container {
+	text-align: left;
+}
+
+#promotion-section.text-aligned-center .entry-container {
+	text-align: center;
+}
+
+#promotion-section.text-aligned-right .entry-container {
+	text-align: right;
+}
+
+#promotion-section.content-frame .entry-container {
+    padding: 20px;
+}
+
+#promotion-section .cover-link {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+#promotion-section .section-title-wrapper:after {
+	content: none;
+}
+
+.promotion-content-wrapper .entry-container {
+    border-radius: 50%;
+    display: table;
+}
+
+.promotion-content-wrapper .entry-container-frame {
+ 	border: 3px dashed;
+    border-radius: 50%;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 30px;
+    margin: 0 auto;
+ }
+
+#promotion-section .entry-container-frame .section-subtitle {
+ 	font-size: 130px;
+ 	font-size: 8.125rem;
+    line-height: 1;
+}
+
+#promotion-section .entry-container-frame .section-title-wrapper {
+	font-size: 46px;
+	font-size: 2.875rem;
+}
+
+#promotion-section .entry-container-frame .entry-header {
+	display: inline-block;
+}

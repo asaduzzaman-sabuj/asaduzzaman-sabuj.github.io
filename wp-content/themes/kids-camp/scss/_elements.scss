@@ -1,0 +1,117 @@
+html {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	/* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	margin: 0 0 1.555555555555556em;
+}
+
+ul,
+ol {
+	margin: 0 0 1.555555555555556em 1.3125em;
+	padding: 0;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+}
+
+dl {
+	margin: 0 0 1.555555555555556em;
+}
+
+dt {
+	font-weight: 500;
+}
+
+dd {
+	margin: 0 1.3125em 1.555555555555556em;
+}
+
+img {
+	height: auto;
+	/* Make sure images are scaled correctly. */
+	max-width: 100%;
+	/* Adhere to container width. */
+	vertical-align: middle;
+}
+
+del {
+	opacity: 0.8;
+}
+
+table,
+th,
+td {
+	border: 1px solid;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: 0 0 1.555555555555556em;
+	table-layout: fixed;
+	/* Prevents HTML tables from becoming too wide */
+	width: 100%;
+}
+
+caption {
+	font-weight: 500;
+	text-align: center;
+}
+
+th,
+td {
+	font-weight: normal;
+	text-align: left;
+}
+
+thead th {
+	font-weight: 700;
+}
+
+th a {
+	text-decoration: none;
+}
+
+caption,
+th,
+td {
+	padding: 14px;
+}
+
+.displaynone {
+	display: none;
+}
+
+.displayblock {
+	display: block;
+}
+
+.drop-cap::first-letter {
+	float: left;
+	line-height: 0.6;
+	margin: 7px 21px 7px -3px;
+}

@@ -1,0 +1,344 @@
+.site-header-top-main,
+#footer-menu-section .wrapper {
+	padding: 0 30px;
+}
+
+.site-header-main {
+	padding: 21px 30px;
+}
+
+.custom-logo {
+	margin: 7px auto;
+}
+
+.site-title,
+.site-description {
+	margin: 0;
+}
+
+.menu-toggle {
+	padding: 14px 30px;
+}
+
+.dropdown-toggle {
+	padding: 14px 16px;
+}
+
+.site-navigation .menu-item-has-children > a {
+	margin-right: 50px;
+}
+
+.site-secondary-menu {
+	margin: 14px auto;
+}
+
+.widget,
+.pagination,
+.woocommerce-pagination,
+.post-navigation,
+.posts-navigation,
+.form-allowed-tags {
+	margin: 0 0 42px;
+}
+
+.site-footer .widget {
+	margin: 0;
+	padding: 21px 30px;
+}
+
+.sidebar .widget .widget-title {
+	margin: 0 0 14px;
+}
+
+.site-footer .widget .widget-title {
+	margin: 0 0 28px;
+}
+
+.site-footer .ew-about .featured-image  {
+	margin-bottom: 28px;
+}
+
+.widget li {
+    margin-bottom: 7px;
+}
+
+.singular-content-wrap .entry-header,
+.archive .page-header,
+.error404 .page-header,
+.search .page-header,
+.woocommerce-products-header {
+	margin-bottom: 35px;
+}
+
+.has-header-video .custom-header-content {
+	padding-bottom: 288px;
+}
+
+.site-content .archive-posts-wrapper .section-heading-wrapper {
+	padding-top: 0;
+}
+
+.comment-reply-title,
+.author-avatar,
+.comment-form-comment,
+.comment-notes,
+.comment-awaiting-moderation,
+.logged-in-as {
+	margin: 0 0 28px;
+}
+
+.edit-link {
+	display: block;
+	font-weight: 500;
+	margin-top: 28px;
+}
+
+.archive-posts-wrapper .post-wrapper .entry-container {
+    padding: 35px 0;
+}
+
+.section-content-wrapper .post-thumbnail {
+	margin: 0 0 28px;
+}
+
+.section-content-wrapper .post-wrapper .post-thumbnail {
+	margin: 0;
+}
+
+.section-content-wrapper .entry-summary,
+.section-content-wrapper .entry-content {
+	margin: 14px 0 0;
+	width: 100%;
+}
+
+.section-content-wrapper .entry-footer .entry-meta {
+	margin: 21px 0 0;
+}
+
+.hero-content-wrapper .entry-content,
+.hero-content-wrapper .entry-summary {
+	margin: 28px 0 0;
+}
+
+.taxonomy-description,
+.taxonomy-description-wrapper {
+	margin-top: 21px;
+}
+
+.site-content .wrapper {
+	padding: 0 30px;
+}
+
+.author-info,
+.singular-content-wrap .post-thumbnail,
+.singular-content-wrap .entry-footer {
+	margin: 35px 0;
+}
+
+.singular-content-wrap .entry-content {
+	margin-bottom: 35px;
+}
+
+.section,
+.site-content,
+#footer-newsletter .widget,
+#footer-newsletter .widget.has-background-image {
+	padding: 42px 0;
+}
+
+.product-content-wrapper,
+.recent-blog-content-wrapper,
+.featured-content-wrapper,
+.portfolio-content-wrapper,
+.service-content-wrapper,
+.team-content-wrapper,
+.numbers-content-wrapper,
+.collection-wrapper {
+	padding: 0 30px;
+}
+
+.featured-content-wrapper .hentry,
+.portfolio-content-wrapper .hentry,
+.service-content-wrapper .hentry,
+.numbers-content-wrapper .hentry,
+.team-content-wrapper .hentry,
+.collection-wrapper .hentry {
+	margin-bottom: 35px;
+}
+
+.custom-header-content > :last-child,
+.page .singular-content-wrap .hentry > :last-child,
+.taxonomy-description-wrapper > :last-child,
+.widget-column > :last-child,
+.widget-area > :last-child,
+.widget > :last-child,
+.widget li:last-child,
+.widget embed:last-child,
+.widget iframe:last-child,
+.widget object:last-child,
+.widget video:last-child,
+.site-footer .widget li:last-child {
+	margin-bottom: 0;
+}
+
+.copyright,
+.powered {
+	margin: 0;
+}
+
+.site-navigation {
+	margin: 0;
+}
+
+.top-navigation {
+	margin: 0 -30px;
+	text-align: left;
+}
+
+.header-top-bar .top-main-wrapper {
+	margin: 0 auto 15px;
+}
+
+.site-footer-menu {
+	margin: 0 auto 35px;
+}
+
+.site-primary-menu {
+	margin: 0 auto;
+	padding: 14px 0;
+}
+
+.site-footer-menu {
+	margin-bottom: 14px;
+}
+
+.site-footer .social-navigation a,
+.ctsocialwidget a {
+	border-radius: 50%;
+	text-align: center;
+	width: 40px;
+	height: 40px;
+}
+
+.site-footer .social-navigation .icon {
+	width: 18px;
+	height: 18px;
+}
+
+.posts-navigation div + div,
+.post-navigation div + div {
+	margin-top: 30px;
+}
+
+.wp-caption .wp-caption-text {
+	padding: 14px 21px;
+}
+
+button,
+.button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.posts-navigation a,
+.site-main #infinite-handle span button,
+.header-media .more-link .more-button,
+#feature-slider-section .more-link .more-button,
+#promotion-section .more-link .more-button,
+#countdown-section .more-link .more-button,
+.view-all-button .more-link {
+	padding: 7px 32px;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea {
+	padding: 10px 21px;
+}
+
+.site-header input[type="search"] {
+	padding: 16px 18px;
+}
+
+.menu-toggle .icon,
+.contact-details .icon,
+.entry-meta .icon,
+.site-cart-contents .icon,
+.my-account .icon {
+	margin-right: 4px;
+}
+
+.share-toggle.menu-toggle .icon {
+	margin-right: 0;
+}
+
+.share-toggle.toggled-on .icon-share {
+	display: none;
+}
+
+#search-toggle-right {
+	line-height: 1.25;
+	padding: 14px;
+}
+
+.entry-title {
+	line-height: 1.4;
+	margin: 0;
+}
+
+.infinity-end .site-main .hentry:last-of-type .post-wrapper {
+	margin: 0;
+}
+
+.site-footer .footer-widget-area {
+	padding: 21px 0;
+}
+
+.site-content .sidebar {
+	clear: both;
+	margin-top: 42px;
+}
+
+.site-info .wrapper {
+	display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+	display: -ms-flexbox;  /* TWEENER - IE 10 */
+	display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+	display: flex;     /* NEW, Spec - Firefox, Chrome, Opera */
+	-ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding: 28px 30px;
+	text-align: center;
+}
+
+.copyright,
+#footer-payment-supported-image {
+	width: 100%;
+}
+
+#footer-payment-supported-image {
+	margin-top: 21px;
+}
+
+ .entry-meta .posted-on {
+ 	margin-right: 14px;
+ }
+
+ .site-navigation ul ul li {
+ 	margin-top: 1px;
+ }

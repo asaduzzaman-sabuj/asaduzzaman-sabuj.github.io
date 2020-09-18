@@ -1,0 +1,79 @@
+.team-content-wrapper {
+	overflow: hidden;
+}
+
+.team-content-wrapper .post-thumbnail {
+	line-height: 1;
+}
+
+.team-content-wrapper .post-thumbnail a {
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 3px 18px -5px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 3px 18px -5px rgba(0,0,0,0.25);
+    box-shadow: 0px 3px 18px -5px rgba(0,0,0,0.25);
+    display: inline-block;
+    height: 0;
+    padding-top: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+
+.team-content-wrapper .entry-container {
+    position: relative;
+    z-index: 2;
+}
+
+.team-content-wrapper .post-thumbnail img {
+    bottom: 0;
+    border-radius: 50%;
+    display: block;
+    height: 90%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 90%;
+    margin: auto;
+}
+
+.team-content-wrapper .hentry-inner {
+	position: relative;
+}
+
+.team-content-wrapper .artist-social-profile {
+	margin: 7px 0;
+}
+
+.team-content-wrapper .entry-title,
+.team-content-wrapper .entry-meta {
+	letter-spacing: 0;
+	text-transform: capitalize;
+}
+
+.team-content-wrapper .entry-meta {
+	line-height: 1.75;
+	margin-bottom: 0;
+	margin-top: 5px;
+}
+
+#team-content-section .section-heading-wrapper{
+    position: relative;
+    z-index: 2;
+}
+
+#team-content-section:before {
+    content: '';
+    background-image: url('assets/images/team-bg.jpg');
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    min-height: 250px;
+    z-index: 1;
+}
+
+
+#gallery-content-section .gallery-content-wrapper {
+    padding: 0 30px;
+}

@@ -1,0 +1,46 @@
+.posts-navigation {
+	clear: both;
+	text-align: center;
+}
+
+.pagination {
+	clear: both;
+}
+
+.pagination .page-numbers {
+	border-radius: 50%;
+	display: inline-block;
+	font-size: 21px;
+	font-size: 1.3125rem;
+	font-weight: 600;
+	margin: 7px 0;
+	text-transform: uppercase;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+
+.pagination .prev.page-numbers,
+.pagination .next.page-numbers {
+	border-radius: 0;
+	font-size: 14px;
+	font-size: 0.875rem;
+	height: auto;
+	line-height: inherit;
+	width: auto;
+}
+
+.infinite-loader {
+	clear: both;
+	padding: 0 0 35px;
+}
+
+.site-main #infinite-handle {
+	clear: both;
+	text-align: center;
+}
+
+.infinite-scroll .woocommerce-pagination {
+	display: none;
+}
