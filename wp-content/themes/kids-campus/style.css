@@ -153,7 +153,7 @@ span.phno{ padding-right:20px;}
 
 /*header menu css*/
 .toggle{display: block;}
-.toggle a{width:100%; color:#ffffff; background:url(images/mobile-nav.png) no-repeat right center #3e3e3e; padding:8px 10px; margin-top:5px; font-size:16px; display:none; text-align:left;}
+.toggle a{width:100%; color:#ffffff; background:url(/https://asaduzzaman-sabuj.github.io/wp-content/themes/kids-campus/images/mobile-nav.png) no-repeat right center #3e3e3e; padding:8px 10px; margin-top:5px; font-size:16px; display:none; text-align:left;}
 .toggle a:hover{color:#ffffff !important;}
 /*main menu*/
 .site_primary_menu{ padding:0; z-index:9999; position:relative; width:100%; text-align:center; }
@@ -197,7 +197,7 @@ span.phno{ padding-right:20px;}
 .slider_sections{ position:relative;}
 h2.sectiontitle{font-weight:600; font-size:40px; margin-bottom:50px; position:relative; text-align:center;}
 .last_column{clear:right; margin-right:0 !important; }
-#sidebar .search-form input.search-submit{ background:url(images/search-icon.png) no-repeat center center #efc62c; padding: 12px 0 12px 0; font-size:0; width:20%; height:43px; float:right; border:0;}
+#sidebar .search-form input.search-submit{ background:url(/https://asaduzzaman-sabuj.github.io/wp-content/themes/kids-campus/images/search-icon.png) no-repeat center center #efc62c; padding: 12px 0 12px 0; font-size:0; width:20%; height:43px; float:right; border:0;}
 
 /* = Services 3 coloumn Section
 -------------------------------------- */
@@ -239,7 +239,7 @@ aside .textwidget{ padding:20px; background-color:#f5f5f4;}
 
 #sidebar .search-form{ margin-bottom:20px;}
 #sidebar .search-form input.search-field{ background-color:#fff; width:80%; padding: 12px 15px 12px 15px; border:1px solid #ddd; }
-#sidebar .search-form input.search-submit{ background:url(images/search-icon.png) no-repeat center center #efc62c; padding: 12px 0 12px 0; font-size:0; width:20%; height:43px; float:right; border:0;}
+#sidebar .search-form input.search-submit{ background:url(/https://asaduzzaman-sabuj.github.io/wp-content/themes/kids-campus/images/search-icon.png) no-repeat center center #efc62c; padding: 12px 0 12px 0; font-size:0; width:20%; height:43px; float:right; border:0;}
 
 
 /* = Footer css
