@@ -1,0 +1,198 @@
+#collection-section .wrapper {
+ 	max-width: 1920px;
+ }
+
+.team-content-wrapper .hentry-inner,
+.service-content-wrapper .hentry-inner {
+	text-align: center;
+}
+
+.featured-content-wrapper .post-thumbnail,
+.portfolio-content-wrapper .post-thumbnail,
+.collection-wrapper .post-thumbnail {
+	width: 100%;
+  position: relative;
+}
+
+#featured-content-section .hentry-inner {
+	position: relative;
+  overflow: hidden;
+}
+
+/* Portolio */
+.portfolio-content-wrapper {
+	overflow: hidden;
+}
+
+.portfolio-content-wrapper .hentry-inner {
+	position: relative;
+}
+
+.portfolio-content-wrapper.special .hentry-inner {
+	min-height: 440px;
+}
+
+.portfolio-content-wrapper.section-content-wrapper .post-thumbnail {
+   margin: 0;
+}
+
+.portfolio-content-wrapper.section-content-wrapper .post-thumbnail img {
+	width: 100%;
+}
+
+.portfolio-content-wrapper .entry-meta {
+	font-size: 14px;
+    font-size: 0.875rem;
+	line-height: 1.647058823529412;
+	margin: 7px 0 0;
+	text-transform: capitalize;
+}
+
+.portfolio-content-wrapper .entry-meta a {
+	text-decoration: none;
+}
+
+.portfolio-content-wrapper .entry-summary {
+	display: none;
+}
+
+.portfolio-content-wrapper .entry-title {
+	line-height: 1.45833;
+}
+
+.portfolio-content-wrapper .section-content-wrapper .entry-title {
+	display: block;
+	position: relative;
+}
+
+.portfolio-content-wrapper .entry-container {
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	z-index: 9;
+}
+
+.portfolio-content-wrapper .inner-wrap {
+	padding: 21px;
+}
+
+
+.portfolio-content-wrapper.special .post-thumbnail {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    left: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.portfolio-content-wrapper .entry-header .entry-meta .cat-links {
+	margin-right: 0;
+}
+
+#portfolio-content-section.section.no-section-heading {
+	padding-top: 0;
+}
+
+.featured-content-wrapper .entry-container {
+	text-align: center;
+}
+
+.featured-content-wrapper .hentry-inner {
+	border: 1px solid;
+	border-radius: 10px;
+	padding-bottom: 42px;
+}
+
+.featured-content-wrapper .hentry-inner:hover{
+	-webkit-box-shadow: 0px 0px 30px -10px rgba(0,0,0,0.20);
+	-moz-box-shadow: 0px 0px 30px -10px rgba(0,0,0,0.20);
+	box-shadow: 0px 0px 30px -10px rgba(0,0,0,0.20);
+	transition: 0.3s;
+}
+
+.featured-content-wrapper .hentry-inner .entry-container {
+ 	padding: 0 30px;
+ }
+
+#featured-content-section .section-content-wrapper .entry-meta-wrapper {
+ 	display: flex;
+ }
+
+#featured-content-section .section-content-wrapper .entry-meta {
+  flex-basis: 33.33%;
+	flex-grow: 0;
+	margin-bottom: 0;
+	text-align: left;
+}
+
+#featured-content-section .section-content-wrapper .entry-meta p {
+	margin-bottom: 0;
+}
+
+#featured-content-section .section-content-wrapper .entry-price-wrapper {  
+  border-radius: 50%;
+  height: 85px;
+  margin: 0 auto;
+  margin-bottom: 21px;
+  margin-top: -85px;
+  padding: 5px 0;
+  position: relative;
+  width: 85px;
+  z-index: 2;
+}
+
+
+#featured-content-section .section-content-wrapper .entry-price {  
+  border: 1px dashed;
+  border-radius: 50%;
+  height: 75px;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  width: 75px;
+  z-index: 2;
+}
+
+#featured-content-section .section-content-wrapper .entry-meta span, 
+#featured-content-section .section-content-wrapper .entry-price span {
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+#featured-content-section .section-content-wrapper .entry-meta p,
+#featured-content-section .section-content-wrapper .entry-price p {
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.featured-content-wrapper .post-thumbnail:after {
+  content: "";
+  background-image: url(assets/images/bg-pattern.png);
+  position: absolute;
+  z-index: 2;
+  top: 94%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-repeat: round;
+}

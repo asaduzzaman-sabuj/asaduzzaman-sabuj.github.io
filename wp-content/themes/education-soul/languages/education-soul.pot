@@ -1,0 +1,1003 @@
+# Copyright (C) 2019-2020 WEN Themes
+# This file is distributed under the GNU General Public License v3 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Education Soul\n"
+"Report-Msgid-Bugs-To: https://wenthemes.com/contact-us/\n"
+"POT-Creation-Date: 2020-09-04 11:07-0400\n"
+"POT-Creation-Date: 2019-11-17 22:51-0800\n"
+"Last-Translator: WEN Themes <info@wenthemes.com>\n"
+"Language-Team: WEN Themes <info@wenthemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-KeywordsList: __;_e;_x;esc_html_e;esc_html__;esc_attr_e;esc_attr__;"
+"_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;"
+"__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: \n"
+"PO-Revision-Date: \n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../404.php:23
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: ../comments.php:33
+#, php-format
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#: ../comments.php:38
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../comments.php:53 ../comments.php:74
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:56 ../comments.php:77
+msgid "Older Comments"
+msgstr ""
+
+#: ../comments.php:57 ../comments.php:78
+msgid "Newer Comments"
+msgstr ""
+
+#: ../comments.php:90
+msgid "Comments are closed."
+msgstr ""
+
+#: ../functions.php:32 ../inc/hook/custom.php:75
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:33
+msgid "Footer Menu"
+msgstr ""
+
+#: ../functions.php:34
+msgid "Social Menu"
+msgstr ""
+
+#: ../functions.php:35
+msgid "404 Menu"
+msgstr ""
+
+#: ../functions.php:110 ../inc/support/woocommerce.php:212
+msgid "Primary Sidebar"
+msgstr ""
+
+#: ../functions.php:112
+msgid "Add widgets here to appear in your Primary Sidebar."
+msgstr ""
+
+#: ../functions.php:121 ../inc/support/woocommerce.php:233
+msgid "Secondary Sidebar"
+msgstr ""
+
+#: ../functions.php:123
+msgid "Add widgets here to appear in your Secondary Sidebar."
+msgstr ""
+
+#: ../functions.php:173
+msgid "expand child menu"
+msgstr ""
+
+#: ../functions.php:174
+msgid "collapse child menu"
+msgstr ""
+
+#: ../inc/admin/admin.php:47
+msgid "Version"
+msgstr ""
+
+#: ../inc/admin/admin.php:59 ../inc/customizer/option.php:14
+msgid "Theme Options"
+msgstr ""
+
+#: ../inc/admin/admin.php:62
+msgid ""
+"We have used Customizer API for theme options which will help you preview "
+"your changes live and fast."
+msgstr ""
+
+#: ../inc/admin/admin.php:66
+msgid "Customize"
+msgstr ""
+
+#: ../inc/admin/admin.php:73
+msgid "Theme Instructions"
+msgstr ""
+
+#: ../inc/admin/admin.php:75
+msgid ""
+"We have prepared detailed theme instructions which will help you to "
+"customize theme as you prefer."
+msgstr ""
+
+#: ../inc/admin/admin.php:79
+msgid "Documentation"
+msgstr ""
+
+#: ../inc/admin/admin.php:86
+msgid "Help &amp; Support"
+msgstr ""
+
+#: ../inc/admin/admin.php:89
+msgid ""
+"If you have any question/feedback regarding theme, please post in our "
+"official support forum."
+msgstr ""
+
+#: ../inc/admin/admin.php:93
+msgid "Get Support"
+msgstr ""
+
+#: ../inc/admin/admin.php:100
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: ../inc/admin/admin.php:102
+msgid ""
+"Want additional features in theme? Please upgrade to pro version of the "
+"theme."
+msgstr ""
+
+#: ../inc/admin/admin.php:106 ../inc/customizer.php:57
+msgid "Buy Pro"
+msgstr ""
+
+#: ../inc/customizer.php:48
+msgid ""
+"Note: Background Color is applicable only if no image is set as Background "
+"Image."
+msgstr ""
+
+#: ../inc/customizer.php:56
+msgid "Education Soul Pro"
+msgstr ""
+
+#: ../inc/customizer/control.php:173 ../inc/widgets.php:142
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: ../inc/customizer/default.php:25
+msgid "News:"
+msgstr ""
+
+#: ../inc/customizer/default.php:33
+msgid "Buy Now"
+msgstr ""
+
+#: ../inc/customizer/default.php:48
+msgid "Copyright &copy; All rights reserved."
+msgstr ""
+
+#: ../inc/customizer/default.php:54
+msgid "Read more"
+msgstr ""
+
+#: ../inc/customizer/default.php:64
+msgid "Welcome To Our University"
+msgstr ""
+
+#: ../inc/customizer/default.php:65
+msgid ""
+"Every undergraduate student is eligible to receive a fellowship of up to "
+"$10,000 for a summer internship or faculty-mentored research project. Find "
+"your opportunity, make your case for how it fits your academic plans, and we "
+"will help fund it."
+msgstr ""
+
+#: ../inc/customizer/default.php:66
+msgid "Learn More"
+msgstr ""
+
+#: ../inc/customizer/default.php:68
+msgid "Online Tour"
+msgstr ""
+
+#: ../inc/customizer/default.php:73
+msgid "News"
+msgstr ""
+
+#: ../inc/customizer/default.php:76
+msgid "Events"
+msgstr ""
+
+#: ../inc/customizer/default.php:81 ../inc/customizer/home-sections.php:366
+#: ../inc/helper/options.php:338
+msgid "Services"
+msgstr ""
+
+#: ../inc/customizer/default.php:86 ../inc/customizer/home-sections.php:467
+#: ../inc/helper/options.php:342
+msgid "Latest News"
+msgstr ""
+
+#: ../inc/customizer/default.php:105 ../template-parts/home/latest-news.php:74
+msgid "Read More"
+msgstr ""
+
+#: ../inc/customizer/home-sections.php:14
+msgid "Homepage Sections"
+msgstr ""
+
+#: ../inc/customizer/home-sections.php:24
+msgid "Manage Sections"
+msgstr ""
+
+#: ../inc/customizer/home-sections.php:62
+msgid "Reorder/toggle sections"
+msgstr ""
+
+#: ../inc/customizer/home-sections.php:75 ../inc/helper/options.php:330
+msgid "Call To Action"
+msgstr ""
+
+#: ../inc/customizer/home-sections.php:94
+#: ../inc/customizer/home-sections.php:385
+#: ../inc/customizer/home-sections.php:486
+msgid "Title"
+msgstr ""
+
+#: ../inc/customizer/home-sections.php:113
+msgid "Subtitle"
+msgstr ""
+
+#: ../inc/customizer/home-sections.php:132
+msgid "Primary Button Text"
+msgstr ""
+
+#: ../inc/customizer/home-sections.php:151
+msgid "Primary Button URL"
+msgstr ""
+
+#: ../inc/customizer/home-sections.php:170
+msgid "Secondary Button Text"
+msgstr ""
+
+#: ../inc/customizer/home-sections.php:189
+msgid "Secondary Button URL"
+msgstr ""
+
+#: ../inc/customizer/home-sections.php:210
+msgid "Background Image"
+msgstr ""
+
+#: ../inc/customizer/home-sections.php:211
+#, php-format
+msgid "Recommended Size: %1$dpx x %2$dpx"
+msgstr ""
+
+#: ../inc/customizer/home-sections.php:223 ../inc/helper/options.php:334
+msgid "News and Events"
+msgstr ""
+
+#: ../inc/customizer/home-sections.php:242
+msgid "News Title"
+msgstr ""
+
+#: ../inc/customizer/home-sections.php:261
+msgid "No of News"
+msgstr ""
+
+#: ../inc/customizer/home-sections.php:288
+msgid "News Category"
+msgstr ""
+
+#: ../inc/customizer/home-sections.php:308
+msgid "Events Title"
+msgstr ""
+
+#: ../inc/customizer/home-sections.php:327
+msgid "No of Events"
+msgstr ""
+
+#: ../inc/customizer/home-sections.php:354
+msgid "Events Category"
+msgstr ""
+
+#: ../inc/customizer/home-sections.php:404
+#: ../inc/customizer/home-sections.php:525
+msgid "Columns"
+msgstr ""
+
+#: ../inc/customizer/home-sections.php:425
+#: ../inc/customizer/home-sections.php:545
+msgid "No of Blocks"
+msgstr ""
+
+#: ../inc/customizer/home-sections.php:426
+msgid ""
+"Enter number between 1 and 10. Save and refresh the page if No of Blocks is "
+"changed."
+msgstr ""
+
+#: ../inc/customizer/home-sections.php:454
+msgid "Page"
+msgstr ""
+
+#: ../inc/customizer/home-sections.php:505
+#: ../inc/customizer/home-sections.php:509 ../inc/metabox.php:60
+msgid "Layout"
+msgstr ""
+
+#: ../inc/customizer/home-sections.php:572
+msgid "Select Category"
+msgstr ""
+
+#: ../inc/customizer/home-sections.php:592
+msgid "Image Size"
+msgstr ""
+
+#: ../inc/customizer/home-sections.php:612 ../inc/customizer/option.php:538
+msgid "Excerpt Length"
+msgstr ""
+
+#: ../inc/customizer/home-sections.php:613 ../inc/customizer/option.php:539
+msgid "in words"
+msgstr ""
+
+#: ../inc/customizer/option.php:24
+msgid "Header Options"
+msgstr ""
+
+#: ../inc/customizer/option.php:43
+msgid "Show Site Title"
+msgstr ""
+
+#: ../inc/customizer/option.php:61
+msgid "Show Tagline"
+msgstr ""
+
+#: ../inc/customizer/option.php:80
+msgid "Show News Ticker"
+msgstr ""
+
+#: ../inc/customizer/option.php:99
+msgid "Ticker Title"
+msgstr ""
+
+#: ../inc/customizer/option.php:121
+msgid "Ticker Category"
+msgstr ""
+
+#: ../inc/customizer/option.php:142
+msgid "Number of Posts"
+msgstr ""
+
+#: ../inc/customizer/option.php:167
+msgid "Contact Number"
+msgstr ""
+
+#: ../inc/customizer/option.php:186
+msgid "Contact Email"
+msgstr ""
+
+#: ../inc/customizer/option.php:205
+msgid "Contact Address"
+msgstr ""
+
+#: ../inc/customizer/option.php:224 ../inc/customizer/option.php:489
+msgid "Show Social Icons"
+msgstr ""
+
+#: ../inc/customizer/option.php:242
+msgid "Enable Search Form"
+msgstr ""
+
+#: ../inc/customizer/option.php:261
+msgid "Buy Button Text"
+msgstr ""
+
+#: ../inc/customizer/option.php:280
+msgid "Buy Button URL"
+msgstr ""
+
+#: ../inc/customizer/option.php:291
+msgid "Layout Options"
+msgstr ""
+
+#: ../inc/customizer/option.php:310
+msgid "Global Layout"
+msgstr ""
+
+#: ../inc/customizer/option.php:330
+msgid "Archive Layout"
+msgstr ""
+
+#: ../inc/customizer/option.php:349
+msgid "Image in Archive"
+msgstr ""
+
+#: ../inc/customizer/option.php:368
+msgid "Image Alignment in Archive"
+msgstr ""
+
+#: ../inc/customizer/option.php:388 ../inc/metabox.php:84
+msgid "Image in Single Post/Page"
+msgstr ""
+
+#: ../inc/customizer/option.php:407 ../inc/metabox.php:96
+msgid "Image Alignment in Single Post/Page"
+msgstr ""
+
+#: ../inc/customizer/option.php:420
+msgid "Pagination Options"
+msgstr ""
+
+#: ../inc/customizer/option.php:439
+msgid "Pagination Type"
+msgstr ""
+
+#: ../inc/customizer/option.php:451
+msgid "Footer Options"
+msgstr ""
+
+#: ../inc/customizer/option.php:470
+msgid "Copyright Text"
+msgstr ""
+
+#: ../inc/customizer/option.php:508
+msgid "Show Go To Top"
+msgstr ""
+
+#: ../inc/customizer/option.php:519
+msgid "Blog Options"
+msgstr ""
+
+#: ../inc/customizer/option.php:563 ../inc/customizer/slider.php:274
+msgid "Read More Text"
+msgstr ""
+
+#: ../inc/customizer/option.php:582
+msgid "Exclude Categories in Blog"
+msgstr ""
+
+#: ../inc/customizer/option.php:583
+msgid ""
+"Enter category ID to exclude in Blog Page. Separate with comma if more than "
+"one"
+msgstr ""
+
+#: ../inc/customizer/option.php:594
+msgid "Breadcrumb Options"
+msgstr ""
+
+#: ../inc/customizer/option.php:613
+msgid "Breadcrumb Type"
+msgstr ""
+
+#: ../inc/customizer/slider.php:14 ../inc/helper/options.php:326
+msgid "Featured Slider"
+msgstr ""
+
+#: ../inc/customizer/slider.php:33
+msgid "Transition Effect"
+msgstr ""
+
+#: ../inc/customizer/slider.php:53
+msgid "Transition Delay"
+msgstr ""
+
+#: ../inc/customizer/slider.php:54 ../inc/customizer/slider.php:80
+msgid "in seconds"
+msgstr ""
+
+#: ../inc/customizer/slider.php:79
+msgid "Transition Duration"
+msgstr ""
+
+#: ../inc/customizer/slider.php:105
+msgid "Enable Caption"
+msgstr ""
+
+#: ../inc/customizer/slider.php:124
+msgid "Caption Alignment"
+msgstr ""
+
+#: ../inc/customizer/slider.php:145
+msgid "Enable Arrow"
+msgstr ""
+
+#: ../inc/customizer/slider.php:164
+msgid "Enable Pager"
+msgstr ""
+
+#: ../inc/customizer/slider.php:183
+msgid "Enable Autoplay"
+msgstr ""
+
+#: ../inc/customizer/slider.php:202
+msgid "Select Slider Type"
+msgstr ""
+
+#: ../inc/customizer/slider.php:223
+msgid "No of Slides"
+msgstr ""
+
+#: ../inc/customizer/slider.php:224
+msgid ""
+"Enter number between 1 and 10. Save and refresh the page if No of Slides is "
+"changed."
+msgstr ""
+
+#: ../inc/customizer/slider.php:253
+msgid "Featured Page"
+msgstr ""
+
+#: ../inc/helper/common.php:82
+msgctxt "Roboto font: on or off"
+msgid "on"
+msgstr ""
+
+#: ../inc/helper/common.php:87
+msgctxt "Poppins font: on or off"
+msgid "on"
+msgstr ""
+
+#: ../inc/helper/common.php:137 ../lib/breadcrumbs/breadcrumbs.php:266
+msgid "Home"
+msgstr ""
+
+#: ../inc/helper/common.php:259 ../inc/helper/options.php:44
+msgid "Default"
+msgstr ""
+
+#: ../inc/helper/options.php:20
+msgid "Left Sidebar"
+msgstr ""
+
+#: ../inc/helper/options.php:21
+msgid "Right Sidebar"
+msgstr ""
+
+#: ../inc/helper/options.php:22
+msgid "Three Columns"
+msgstr ""
+
+#: ../inc/helper/options.php:23
+msgid "No Sidebar"
+msgstr ""
+
+#: ../inc/helper/options.php:45
+msgid "Numeric"
+msgstr ""
+
+#: ../inc/helper/options.php:65
+msgid "Disabled"
+msgstr ""
+
+#: ../inc/helper/options.php:66
+msgid "Enabled"
+msgstr ""
+
+#: ../inc/helper/options.php:86
+msgid "Full Post"
+msgstr ""
+
+#: ../inc/helper/options.php:87
+msgid "Post Excerpt"
+msgstr ""
+
+#: ../inc/helper/options.php:118
+msgid "No Image"
+msgstr ""
+
+#: ../inc/helper/options.php:120
+msgid "Thumbnail"
+msgstr ""
+
+#: ../inc/helper/options.php:121
+msgid "Medium"
+msgstr ""
+
+#: ../inc/helper/options.php:122
+msgid "Large"
+msgstr ""
+
+#: ../inc/helper/options.php:123
+msgid "Full (original)"
+msgstr ""
+
+#: ../inc/helper/options.php:167
+msgctxt "alignment"
+msgid "None"
+msgstr ""
+
+#: ../inc/helper/options.php:168
+msgctxt "alignment"
+msgid "Left"
+msgstr ""
+
+#: ../inc/helper/options.php:169
+msgctxt "alignment"
+msgid "Center"
+msgstr ""
+
+#: ../inc/helper/options.php:170
+msgctxt "alignment"
+msgid "Right"
+msgstr ""
+
+#: ../inc/helper/options.php:212
+msgctxt "transition effect"
+msgid "fade"
+msgstr ""
+
+#: ../inc/helper/options.php:213
+msgctxt "transition effect"
+msgid "fadeout"
+msgstr ""
+
+#: ../inc/helper/options.php:214
+msgctxt "transition effect"
+msgid "none"
+msgstr ""
+
+#: ../inc/helper/options.php:215
+msgctxt "transition effect"
+msgid "scrollHorz"
+msgstr ""
+
+#: ../inc/helper/options.php:241 ../inc/helper/options.php:267
+msgid "Featured Pages"
+msgstr ""
+
+#: ../inc/helper/options.php:242 ../inc/helper/options.php:268
+msgid "Demo Slider"
+msgstr ""
+
+#: ../inc/hook/custom.php:17
+msgid "Skip to content"
+msgstr ""
+
+#: ../inc/hook/custom.php:73
+msgid "Menu"
+msgstr ""
+
+#: ../inc/hook/custom.php:101
+msgid "Search"
+msgstr ""
+
+#: ../inc/hook/custom.php:102
+msgid "Search Close"
+msgstr ""
+
+#: ../inc/hook/custom.php:251
+#, php-format
+msgid "Education Soul by %s"
+msgstr ""
+
+#: ../inc/hook/custom.php:251
+msgid "WEN Themes"
+msgstr ""
+
+#: ../inc/hook/slider.php:38
+msgid "Slide Title "
+msgstr ""
+
+#: ../inc/hook/slider.php:40
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis metus "
+"scelerisque, faucibus risus eu, luctus est."
+msgstr ""
+
+#: ../inc/metabox.php:22
+msgid "Theme Settings"
+msgstr ""
+
+#: ../inc/metabox.php:61
+msgid "Image"
+msgstr ""
+
+#: ../inc/metabox.php:64
+msgid "Layout Settings"
+msgstr ""
+
+#: ../inc/metabox.php:66
+msgid "Single Layout"
+msgstr ""
+
+#: ../inc/metabox.php:82
+msgid "Image Settings"
+msgstr ""
+
+#: ../inc/support/footer-widgets.php:110
+#, php-format
+msgid "Footer Widget %d"
+msgstr ""
+
+#: ../inc/support/woocommerce.php:173
+msgid "WooCommerce Options"
+msgstr ""
+
+#: ../inc/support/woocommerce.php:174
+msgid ""
+"Settings specific to WooCommerce. Note: WooCommerce Page means shop page, "
+"product page and product archive page."
+msgstr ""
+
+#: ../inc/support/woocommerce.php:192
+msgid "Content Layout"
+msgstr ""
+
+#: ../inc/support/woocommerce.php:213
+msgid ""
+"Choose Primary Sidebar for WooCommerce pages. If not selected default "
+"sidebar will be displayed."
+msgstr ""
+
+#: ../inc/support/woocommerce.php:234
+msgid ""
+"Choose Secondary Sidebar for WooCommerce pages. If not selected default "
+"sidebar will be displayed."
+msgstr ""
+
+#: ../inc/support/woocommerce.php:252
+msgid "WooCommerce Primary"
+msgstr ""
+
+#: ../inc/support/woocommerce.php:262
+msgid "WooCommerce Secondary"
+msgstr ""
+
+#: ../inc/template-tags.php:51
+msgid "Leave a comment"
+msgstr ""
+
+#: ../inc/template-tags.php:51
+msgid "1 Comment"
+msgstr ""
+
+#: ../inc/template-tags.php:51
+msgid "% Comments"
+msgstr ""
+
+#: ../inc/template-tags.php:58 ../inc/template-tags.php:64
+msgid ", "
+msgstr ""
+
+#: ../inc/template-tags.php:70 ../template-parts/content-page.php:41
+msgid "Edit"
+msgstr ""
+
+#: ../inc/template-tags.php:82
+msgctxt "date format"
+msgid "M"
+msgstr ""
+
+#: ../inc/template-tags.php:83
+msgctxt "date format"
+msgid "d"
+msgstr ""
+
+#: ../inc/widgets.php:51
+msgid "Displays social icons."
+msgstr ""
+
+#: ../inc/widgets.php:56 ../inc/widgets.php:135 ../inc/widgets.php:268
+msgid "Title:"
+msgstr ""
+
+#: ../inc/widgets.php:64
+msgid ""
+"Social menu is not set. Please create menu and assign it to Social Menu."
+msgstr ""
+
+#: ../inc/widgets.php:70
+msgid "ES: Social"
+msgstr ""
+
+#: ../inc/widgets.php:129
+msgid "Displays single featured Page or Post."
+msgstr ""
+
+#: ../inc/widgets.php:140
+msgid "Select Page:"
+msgstr ""
+
+#: ../inc/widgets.php:145
+msgid "Show Content:"
+msgstr ""
+
+#: ../inc/widgets.php:149
+msgid "Excerpt"
+msgstr ""
+
+#: ../inc/widgets.php:150
+msgid "Full"
+msgstr ""
+
+#: ../inc/widgets.php:154
+msgid "Excerpt Length:"
+msgstr ""
+
+#: ../inc/widgets.php:155
+msgid "Applies when Excerpt is selected in Show Content option."
+msgstr ""
+
+#: ../inc/widgets.php:163 ../inc/widgets.php:286
+msgid "Featured Image:"
+msgstr ""
+
+#: ../inc/widgets.php:168
+msgid "Image Alignment:"
+msgstr ""
+
+#: ../inc/widgets.php:175
+msgid "ES: Featured Page"
+msgstr ""
+
+#: ../inc/widgets.php:263
+msgid "Displays recent posts."
+msgstr ""
+
+#: ../inc/widgets.php:273
+msgid "Select Category:"
+msgstr ""
+
+#: ../inc/widgets.php:275
+msgid "All Categories"
+msgstr ""
+
+#: ../inc/widgets.php:278
+msgid "Number of Posts:"
+msgstr ""
+
+#: ../inc/widgets.php:292
+msgid "Image Width:"
+msgstr ""
+
+#: ../inc/widgets.php:294
+msgid "px"
+msgstr ""
+
+#: ../inc/widgets.php:302
+msgid "Disable Date"
+msgstr ""
+
+#: ../inc/widgets.php:308
+msgid "ES: Recent Posts"
+msgstr ""
+
+#: ../lib/breadcrumbs/breadcrumbs.php:264
+msgid "Browse:"
+msgstr ""
+
+#: ../lib/breadcrumbs/breadcrumbs.php:267
+msgid "404 Not Found"
+msgstr ""
+
+#: ../lib/breadcrumbs/breadcrumbs.php:268
+msgid "Archives"
+msgstr ""
+
+#: ../lib/breadcrumbs/breadcrumbs.php:270
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#: ../lib/breadcrumbs/breadcrumbs.php:272
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../lib/breadcrumbs/breadcrumbs.php:274
+#, php-format
+msgid "Comment Page %s"
+msgstr ""
+
+#: ../lib/breadcrumbs/breadcrumbs.php:276
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: ../lib/breadcrumbs/breadcrumbs.php:278
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: ../lib/widget-base/class-widget-base.php:281
+msgid "Upload"
+msgstr ""
+
+#: ../lib/widget-base/class-widget-base.php:281
+msgid "Select Image"
+msgstr ""
+
+#: ../lib/widget-base/class-widget-base.php:281
+msgid "Choose Image"
+msgstr ""
+
+#: ../lib/widget-base/class-widget-base.php:292
+msgctxt "remove button"
+msgid "X"
+msgstr ""
+
+#: ../search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../searchform.php:15
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: ../single.php:22
+msgid "Next"
+msgstr ""
+
+#: ../single.php:23
+msgid "Next post:"
+msgstr ""
+
+#: ../single.php:25
+msgid "Previous"
+msgstr ""
+
+#: ../single.php:26
+msgid "Previous post:"
+msgstr ""
+
+#: ../template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: ../template-parts/content-none.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../template-parts/content-none.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../template-parts/content-none.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../template-parts/content-page.php:31
+#: ../template-parts/content-single.php:35 ../template-parts/content.php:51
+msgid "Pages:"
+msgstr ""
+
+#: ../template-parts/content.php:22
+msgid "Featured"
+msgstr ""
+
+#: ../template-parts/content.php:43
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../template-parts/home/services.php:70
+msgid ""
+"No pages selected to be displayed as services. In Customizer, go to Homepage "
+"Sections -> Services to choose pages."
+msgstr ""

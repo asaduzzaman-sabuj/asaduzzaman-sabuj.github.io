@@ -1,0 +1,372 @@
+.header-top-left,
+.site-navigation .top-menu a {
+	font-size: 12px;
+	font-size: 0.75rem;
+	line-height: 1.5;
+	text-transform: capitalize;
+}
+
+.contact-details {
+	list-style: none;
+	margin: 0;
+}
+
+.header-top-bar >.header-top-right.top-without-menu {
+	display: none;
+}
+
+.site-header-main {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.site-branding {
+	/* Avoid overflowing wide custom logo in small screens in Firefox and IEs */
+	max-width: 100%;
+	min-width: 0;
+	text-align: center;
+	width: 100%;
+}
+
+.custom-logo {
+	display: block;
+	max-width: 250px;
+}
+
+.site-title {
+	font-weight: 700;
+	line-height: 1.17;
+	text-transform: uppercase;
+}
+
+.site-description {
+	font-weight: 300;
+	margin: 0;
+	text-transform: capitalize;
+}
+
+.site-title a {
+	text-decoration: none;
+	-webkit-transition: 0.5s ease;
+	-moz-transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	transition: 0.5s ease;
+}
+
+#header-top .site-navigation a,
+#colophon .site-navigation a {
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 2.15;
+	letter-spacing: normal;
+}
+
+.menu-toggle {
+	background-color: transparent;
+	border: none;
+	display: block;
+	font-size: 18px;
+	font-size: 1.125rem;
+	font-weight: 400;
+	line-height: 1.5;
+	margin: 0 auto;
+}
+
+.menu-search-toggle,
+.menu-search-top-toggle .search-label {
+	display: none;
+}
+
+#menu-toggle-secondary {
+	margin: 0 auto -14px;
+}
+
+.header-right-menu-disabled .site-secondary-menu {
+	display: contents;
+	margin: 0;
+}
+
+#site-header-right-menu .search-container {
+	display: block;
+}
+
+.site-header-main .site-header-cart-wrapper {
+	text-align: center;
+	flex: 0 1 auto;
+    margin: 14px 0px 14px 0;
+}
+
+.site-header-main .secondary-account-wrapper,
+.site-header-main .site-header-cart {
+	display: inline-block;
+}
+
+.header-right-menu-disabled .site-secondary-menu .social-navigation {
+	display: block;
+}
+
+.header-right-menu-disabled .site-secondary-menu .social-navigation ul {
+	padding: 0;
+}
+
+.no-js .menu-toggle {
+	display: none;
+}
+
+.menu-toggle:hover,
+.menu-toggle:focus {
+	background-color: transparent;
+}
+
+.absolute-header.menu-is-on .menu-primary-toggle {
+	border: 0;
+}
+
+.menu-toggle.toggled-on,
+.menu-toggle.toggled-on:hover,
+.menu-toggle.toggled-on:focus {
+	background-color: transparent;
+}
+
+.menu-toggle:focus {
+	outline: 0;
+}
+
+.menu-toggle.toggled-on:focus {
+	outline: thin dotted;
+}
+
+#search-toggle.menu-toggle .icon {
+	margin-right: 0;
+}
+
+.toggled-on.menu-toggle .icon-bars,
+.toggled-on.menu-toggle .icon-search,
+.toggled-on.menu-search-toggle .icon-search,
+.menu-search-toggle .icon-close,
+.menu-toggle .icon-close {
+	display: none;
+}
+
+body:not(.absolute-header) #header-navigation-area {
+	border: 1px solid;
+}
+
+.toggled-on.menu-search-toggle .icon-close,
+.toggled-on.menu-toggle .icon-close {
+	display: inline-block;
+}
+
+.menu-label-prefix {
+	display: none;
+}
+
+.search-container {
+	display: block;
+	padding: 14px 0;
+}
+
+#header-content {
+	clear: both;
+}
+
+.header-media {
+	clear: both;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.header-media .post-thumbnail {
+	margin: 0;
+}
+
+.has-header-video .custom-header-media img {
+	display: none;
+}
+
+.custom-header-content,
+#feature-slider-section .slider-content-wrapper {
+	display: block;
+	margin: 0 auto;
+	max-width: 1500px;
+	padding: 112px 30px;
+	position: relative;
+	text-align: center;
+	z-index: 2;
+}
+
+.custom-header .catch-breadcrumb .entry-breadcrumbs,
+.custom-header .catch-breadcrumb .woocommerce-breadcrumb {
+	text-align: center;
+}
+
+.home .custom-header .custom-header-content.content-center-top,
+#feature-slider-section.content-center-top .slider-content-wrapper {
+	padding: 61px 30px 338px 30px;
+}
+
+.home .custom-header .custom-header-content.content-center-bottom,
+#feature-slider-section.content-center-bottom .slider-content-wrapper {
+	padding: 338px 30px 61px 30px;
+}
+
+.custom-header-content .site-header-text a {
+	text-decoration: underline;
+}
+
+.custom-header-content .site-header-text a:hover,
+.custom-header-content .site-header-text a:focus {
+	text-decoration: none;
+}
+
+.custom-header-media img {
+	display: none;
+}
+
+.no-header-media-text .custom-header-media img {
+	display: block;
+}
+
+.custom-header-media video,
+.custom-header-media iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+/* For browsers that support 'object-fit' */
+@supports ( object-fit: cover ) {
+	.custom-header-media video,
+	.custom-header-media iframe {
+		height: 100%;
+		left: 0;
+		-o-object-fit: cover;
+		object-fit: cover;
+		top: 0;
+		-ms-transform: none;
+		-moz-transform: none;
+		-webkit-transform: none;
+		transform: none;
+		width: 100%;
+	}
+}
+
+.custom-header-media .wp-custom-header-video-button { /* Specificity prevents .color-dark button overrides */
+	background-color: transparent;
+	border: 1px solid;
+	border-radius: 50%;
+	font-size: 18px;
+	font-size: 1.125rem;
+	overflow: hidden;
+	padding: 10px 16px;
+	position: absolute;
+	left: 48%;
+	bottom: 105px;
+	-webkit-transition: background-color 0.2s ease-in-out;
+	-moz-transition: background-color 0.2s ease-in-out;
+	-o-transition: background-color 0.2s ease-in-out;
+	transition: background-color 0.2s ease-in-out;
+	z-index: 100;
+}
+
+.custom-header-content .entry-container {
+	max-width: 570px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.custom-header-content .site-header-text,
+.promotion-content-wrapper .entry-content,
+.promotion-content-wrapper .entry-summary,
+#feature-slider-section .entry-summary,
+#feature-slider-section .entry-content {
+	line-height: 1.46;
+	width: 100%;
+}
+
+.custom-header-content .site-header-text,
+.promotion-content-wrapper .entry-content,
+.promotion-content-wrapper .entry-summary,
+#feature-slider-section .entry-summary,
+#feature-slider-section .entry-content {
+	margin: 7px 0 0 0;
+}
+
+
+#feature-slider-section .entry-title,
+.home .custom-header-content .entry-title {
+	font-weight: 400;
+	line-height: 1.17;
+	text-transform: capitalize;
+}
+
+.home.absolute-header #masthead {
+	width: 100%;
+	z-index: 9999;
+}
+
+body:not(.home) .custom-header-media {
+	position: relative;
+}
+
+body:not(.home) .custom-header-media:before {
+	background-color: rgba(0,0,0,0.5);
+	bottom: 0;
+	content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+.custom-header:after,
+#feature-slider-section .slider-image-wrapper:after {
+	content: "";
+	display: block;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+#header-top {
+	position: relative;
+}
+
+#header-top:after {
+	background: linear-gradient(to right, #f59220 0%, #f59220 2%, #f5d689 2%, #f5d689 4%, #e4726e 4%, #e4726e 6%, #739a99 6%, #739a99 8%, #fdd077 8%, #fdd077 10%, #ffb89c 10%, #ffb89c 12%, #7ac489 12%, #7ac489 14%, #7b9bbb 14%, #7b9bbb 16%, #b482eb 16%, #b482eb 18%, #d7723d 18%, #d7723d 20%,
+										#f59220 20%, #f59220 22%, #f5d689 22%, #f5d689 24%, #e4726e 24%, #e4726e 26%, #739a99 26%, #739a99 28%, #fdd077 28%, #fdd077 30%, #ffb89c 30%, #ffb89c 32%, #7ac489 32%, #7ac489 34%, #7b9bbb 34%, #7b9bbb 36%, #b482eb 36%, #b482eb 38%, #d7723d 38%, #d7723d 40%,
+										#f59220 40%, #f59220 42%, #f5d689 42%, #f5d689 44%, #e4726e 44%, #e4726e 46%, #739a99 46%, #739a99 48%, #fdd077 48%, #fdd077 50%, #ffb89c 50%, #ffb89c 52%, #7ac489 52%, #7ac489 54%, #7b9bbb 54%, #7b9bbb 56%, #b482eb 56%, #b482eb 58%, #d7723d 58%, #d7723d 60%,
+										#f59220 60%, #f59220 62%, #f5d689 62%, #f5d689 64%, #e4726e 64%, #e4726e 66%, #739a99 66%, #739a99 68%, #fdd077 68%, #fdd077 70%, #ffb89c 70%, #ffb89c 72%, #7ac489 72%, #7ac489 74%, #7b9bbb 74%, #7b9bbb 76%, #b482eb 76%, #b482eb 78%, #d7723d 78%, #d7723d 80%,
+										#f59220 80%, #f59220 82%, #f5d689 82%, #f5d689 84%, #e4726e 84%, #e4726e 86%, #739a99 86%, #739a99 88%, #fdd077 88%, #fdd077 90%, #ffb89c 90%, #ffb89c 92%, #7ac489 92%, #7ac489 94%, #7b9bbb 94%, #7b9bbb 96%, #b482eb 96%, #b482eb 98%, #d7723d 98%);
+	position: absolute;
+	content: '';
+   	height: 4px;
+	right: 0;
+	left: 0;
+	bottom: 0;
+    width: 100%;
+}
+
+ .header-top-border-disable #header-top:after {
+ 	display: none;
+ }

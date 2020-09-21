@@ -1,0 +1,99 @@
+@media screen and (min-width: 70em) {
+	/* Woocommerce Styles*/
+	.woocommerce-tabs ul.tabs {
+		margin: 56px 0 0
+	}
+
+	.single-product div.product .related,
+	.single-product div.product .upsells,
+	.cart-collaterals .cross-sells,
+	.cart-collaterals .cart_totals {
+		margin-top: 56px
+	}/* Woocommerce Styles End */
+
+	#header-content input[type="search"] {
+		max-width: 440px;
+	}
+
+	.site-header-main {
+		padding: 35px 40px 14px 40px;
+	}
+
+	.wp-custom-logo .custom-logo-link,
+	.wp-custom-logo .site-identity {
+		display: inline-block;
+	}
+
+	.section-content-wrapper .entry-footer .entry-meta {
+		margin: 28px 0 0;
+	}
+
+	.portfolio-content-wrapper .entry-summary {
+		display: block;
+	}
+
+	.content-bottom-widgets {
+	    padding-top: 70px;
+	}
+
+	#hero-section.has-content-frame .entry-container {
+		padding: 70px 50px;
+	}
+
+	#hero-section:not(.has-content-frame) .entry-container {
+		padding: 70px 0;
+	}
+
+	#hero-section:not(.has-content-frame).content-right .entry-container {
+		padding-left: 70px;
+	}
+
+	#hero-section:not(.has-content-frame).content-left .entry-container {
+		padding-right: 70px;
+	}
+
+	#footer-newsletter .has-background-image .widget-inner-wrap {
+		padding: 28px 70px;
+	}
+
+	.product-review-section .entry-content {
+		display: table;
+		table-layout: fixed;
+		width: 100%
+	}
+
+	.product-review-section .attachment-woocommerce_thumbnail,
+	.product-review-section .product-review-wrap {
+		display: table-cell;
+		text-align: left;
+		vertical-align: top;
+	}
+
+	.product-review-section .attachment-woocommerce_thumbnail {
+		width: 24%;
+	}
+
+	.product-review-section .product-review-wrap {
+		padding-left: 21px;
+		width: 76%;
+	}
+
+	.product-review-section .star-rating {
+		margin: 0 0 7px 0;
+	}
+
+	.product-review-section .entry-content .attachment-woocommerce_thumbnail img {
+		width: 100%;
+	}
+
+	#team-content-section:before {
+	    min-height: 250px;
+	}
+	
+	#clients-section:after,
+	#featured-content-section:after,
+	#team-content-section:after,
+	.why-choose-us-section:after {
+	    bottom: -67px;
+	}
+}

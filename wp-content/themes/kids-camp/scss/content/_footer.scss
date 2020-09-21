@@ -1,0 +1,40 @@
+.site-footer .widget-column {
+	float: left;
+	position: relative;
+	width: 100%;
+	z-index: 2;
+}
+
+#site-generator {
+	clear: both;
+	position: relative;
+}
+
+.footer-right .copyright {
+	text-align: right;
+}
+
+.footer-center .copyright {
+	text-align: center;
+}
+
+.site-info {
+	border-top: 1px solid;
+}
+
+#colophon:before {
+	background-size: cover;
+}
+
+footer#colophon {
+	position: relative;
+}
+
+footer#colophon:before {
+	content: '';
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

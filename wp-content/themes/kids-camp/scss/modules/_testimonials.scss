@@ -1,0 +1,198 @@
+.testimonial-content-section .section-content-wrapper {
+	display: block;
+	margin: 0 auto;
+	max-width: 1400px;
+	padding: 0 0 42px ;
+	position: relative;
+}
+
+.testimonial-content-section .hentry-inner {
+	border-radius: 15px;
+	margin: 0 30px;
+	margin-top: 90px;
+    padding: 42px 40px;
+    position: relative;
+}
+
+.testimonial-content-section .testimonial_slider_wrap,
+.product-review-section .product_review_slider_wrap  {
+	width: 100%;
+}
+
+.testimonial-content-section .cycle-prev,
+.testimonial-content-section .cycle-next {
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    outline: none;
+    opacity: 1;
+    position: absolute;
+    top: 40%;
+    padding: 0;
+    text-decoration: none;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    z-index: 199;
+}
+
+.testimonial-content-section .cycle-prev {
+	left: -3%;
+}
+
+.testimonial-content-section .cycle-next {
+	right: -3%;
+}
+
+.testimonial-content-section .icon {
+	font-size: 24px;
+	font-size: 1.5rem;
+	margin: 9px;
+	top: 0;
+}
+
+.testimonial-content-section .cycle-prev .icon {
+	-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+	-ms-transform: rotate(90deg); /* IE 9 */
+	transform: rotate(90deg);
+}
+
+.testimonial-content-section .cycle-next .icon {
+	-webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+	-ms-transform: rotate(270deg); /* IE 9 */
+	transform: rotate(270deg);
+}
+
+.testimonial-content-section .entry-title,
+.testimonial-content-section .entry-meta {
+	display: block;
+	line-height: 1.647058823529412;
+	text-transform: capitalize;
+	margin: 0;
+}
+
+.testimonial-content-section .cycle-pager {
+    bottom: 0;
+    display: block;
+    font-family: arial;
+    font-size: 54px;
+    line-height: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 101;
+}
+
+.testimonial-content-section .cycle-pager span {
+	clear: both;
+	cursor: pointer;
+	display: inline-block;
+	height: 16px;
+	line-height: 16px;
+	margin: 0 7px;
+	width: 16px;
+}
+
+.testimonial-content-section .cycle-pager > * {
+	cursor: pointer;
+}
+
+.testimonial-content-section .more-link {
+	display: none;
+}
+
+#product-review-section .post-thumbnail img,
+.testimonial-content-section .post-thumbnail img {
+    border-radius: 50%;
+}
+
+.testimonial-content-section .entry-summary,
+.testimonial-content-section .entry-content {
+	margin: 0;
+}
+
+.testimonial-content-section .hentry-inner-header {
+	margin: 70px 0 0;
+	text-align: center;
+}
+
+#testimonial-content-section .entry-container {
+	padding-top: 21px;
+}
+
+/* Product Review Section */
+.product-review-section .entry-container {
+	padding: 35px;
+}
+
+.product-review-section .star-rating {
+	margin: 0 0 14px;
+}
+
+.product-review-section .attachment-woocommerce_thumbnail {
+    margin: 0 0 14px;
+}
+
+.product-review-wrap .woocommerce-LoopProduct-link ins {
+	background-color: transparent;
+}
+
+.product-review-section .entry-content .attachment-woocommerce_thumbnail img {
+	border: 1px solid;
+	width: 100px;
+	margin: 0 auto;
+}
+
+.product-review-section p.woocommerce-LoopProduct-link {
+	font-size: 18px;
+	font-size: 1.125rem;
+	font-weight: 500;
+	margin: 0 0 1.25rem;
+}
+
+.product-review-section .star-rating {
+	margin: 0 auto 7px auto;
+}
+
+
+.product-review-section .entry-container {
+	position: relative;
+}
+
+.product-review-section .entry-container:after {
+    left: 28px;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+}
+.product-review-section .entry-container:after {
+    border-width: 14px 14px 0;
+    left: 50%;
+    bottom: -14px;
+    -webkit-transform: translate(-50%,0);
+    -moz-transform: translate(-50%,0);
+    -ms-transform: translate(-50%,0);
+    -o-transform: translate(-50%,0);
+    transform: translate(-50%,0);
+}
+
+.product-review-section .entry-container:after {
+    border-style: solid;
+    content: "";
+    position: absolute;
+}
+
+.testimonial-content-section.section .has-post-thumbnail .post-thumbnail {
+	left: 0;
+	position: absolute;
+    top: -15%;
+    width: 100%;
+    z-index: 1;
+}
+
+.testimonial-content-section .cycle-prev, 
+.testimonial-content-section .cycle-next {
+	display: none;
+}

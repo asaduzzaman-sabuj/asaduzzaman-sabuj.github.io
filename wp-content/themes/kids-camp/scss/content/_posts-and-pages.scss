@@ -1,0 +1,378 @@
+.featured-content-wrapper .hentry,
+.portfolio-content-wrapper .hentry,
+.service-content-wrapper .hentry,
+.team-content-wrapper .hentry,
+.numbers-content-wrapper .hentry,
+.testimonial-content-section .hentry,
+.product-review-section .hentry,
+.collection-wrapper article,
+.archive-posts-wrapper .hentry {
+	float: left;
+	position: relative;
+	width: 100%;
+}
+
+.archive-posts-wrapper .post-wrapper {
+	position: relative;
+}
+
+.singular-content-wrap .entry-header,
+.archive .page-header,
+.error404 .page-header,
+.search .page-header,
+.woocommerce-products-header {
+	text-align: center;
+}
+
+.section-content-wrapper .post-wrapper .entry-footer .entry-meta {
+	margin: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.post-wrapper .entry-footer .comments-link,
+.post-wrapper .entry-footer .tags-links {
+	padding: 21px;
+}
+
+.entry-title a {
+	text-decoration: none;
+}
+
+.cover-link {
+	display: block;
+	height: 100%;
+}
+
+.post-thumbnail img {
+	display: block;
+	margin: 0 auto;
+}
+
+.singular-header-image img {
+	width: 100%;
+}
+
+a.post-thumbnail:hover,
+a.post-thumbnail:focus {
+	opacity: 0.85;
+}
+
+h1 {
+	font-size: 32px;
+	font-size: 2rem;
+	letter-spacing: normal;
+	line-height: 0.8;
+	margin-top: 56px;
+	margin-bottom: 28px;
+}
+
+h2 {
+	margin-top: 56px;
+	margin-bottom: 28px;
+}
+
+h2,
+.site-title,
+.woocommerce-posts-wrapper .entry-title {
+	font-size: 28px;
+	font-size: 1.75rem;
+	letter-spacing: normal;
+  	line-height: 0.94;
+}
+
+h3 {
+	font-size: 24px;
+	font-size: 1.5rem;
+	letter-spacing: normal;
+  	line-height: 1.36;	
+  	margin-top: 56px;
+	margin-bottom: 28px;
+}
+
+h4 {
+	font-size: 22px;
+	font-size: 1.375rem;
+	letter-spacing: normal;
+	line-height: 1.46;
+	margin-top: 56px;
+	margin-bottom: 28px;
+}
+
+h5 {
+	letter-spacing: normal;
+	line-height: 1.4;
+	margin-top: 56px;
+	margin-bottom: 28px;
+}
+
+blockquote,
+h5 {
+	font-size: 20px;
+	font-size: 1.25rem;
+
+}
+
+h6 {
+	font-size: 16px;
+	font-size: 1rem;
+	letter-spacing: normal;
+	line-height: 1.56;
+	margin-top: 56px;
+	margin-bottom: 28px;
+}
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+	margin-top: 0;
+}
+
+.post-navigation .nav-title,
+.entry-title,
+.comments-title {
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+
+.author-description > :last-child,
+.entry-content > :last-child,
+.entry-summary > :last-child,
+.page-content > :last-child,
+.comment-content > :last-child,
+.textwidget > :last-child {
+	margin-bottom: 0;
+}
+
+.more-link {
+	clear: both;
+	display: block;
+	font-weight: 600;
+	margin-top: 21px;
+	word-wrap: break-word;
+}
+
+.site-main .more-link .more-button {
+	border-bottom: 1px solid;
+}
+
+.view-more {
+	clear: both;
+	margin: 0 0 35px;
+	padding: 0 30px;
+	text-align: center;
+}
+
+.author-info {
+	clear: both;
+	padding: 35px;
+	text-align: center;
+}
+
+.author-avatar .avatar {
+	height: 75px;
+	width: 75px;
+}
+
+.author-description .author-title {
+	clear: none;
+	font-weight: bold;
+	line-height: 1.647058823529412;
+	margin: 0 0 7px;
+}
+
+.author-description {
+	overflow: hidden;
+}
+
+.author-link {
+	display: block;
+	clear: both;
+	margin-top: 14px;
+	white-space: nowrap;
+}
+
+.entry-footer:empty {
+	margin: 0;
+}
+
+.sticky-post {
+	display: inline-block;
+    font-size: 14px;
+	font-size: 0.875rem;
+    letter-spacing: 0.03em;
+    margin-bottom: 7px;
+    padding: 7px 14px 6px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    text-transform: capitalize;
+    top: 0;
+}
+
+.home .header-media .custom-header-content .sub-title,
+#promotion-section .section-subtitle {
+	font-size: 42px;
+    font-size: 2.625rem;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	letter-spacing: normal;
+}
+
+.entry-header .entry-meta {
+	font-size: 14px;
+	font-size: 0.875rem;
+}
+
+.entry-meta,
+.entry-breadcrumbs,
+.woocommerce .woocommerce-breadcrumb {
+	font-size: 14px;
+	font-size: 0.875rem;
+	line-height: 1.91;
+  	letter-spacing: 0.9px;
+	margin: 21px 0 14px 0;
+}
+
+.entry-category{
+	font-size: 14px;
+	font-size: 0.875rem;
+}
+
+.entry-breadcrumbs,
+.woocommerce .woocommerce-breadcrumb {
+	margin-bottom: 21px;
+}
+
+.entry-meta .cat-links {
+	text-transform: capitalize;
+}
+
+#collection-section .entry-meta .cat-links {
+	text-transform: capitalize;
+}
+
+.entry-meta .byline,
+.entry-meta .posted-on,
+.entry-title + .entry-meta .meta-icon {
+	font-size: 14px;
+	font-size: 0.875rem;
+	line-height: 1.5;
+	letter-spacing: normal;
+	text-transform: capitalize;
+}
+
+.entry-title + .entry-meta {
+	margin-top: 14px;
+}
+
+.home .post-wrapper .entry-title + .entry-meta {
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	overflow: hidden;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important;
+}
+
+.singular-content-wrap .entry-footer .entry-meta a {
+	display: inline-block;
+	letter-spacing: normal;
+	line-height: 1.75;
+	margin: 0 0 7px 7px;
+	padding: 3px 7px;
+	text-transform: capitalize;
+}
+
+.entry-meta .sep {
+	display: none;
+}
+
+.singular-content-wrap .entry-footer .cat-links,
+.singular-content-wrap .entry-footer .tags-links {
+	display: block;
+	margin-top: 28px;
+}
+
+/**
+ * IE8 and earlier will drop any block with CSS3 selectors.
+ * Do not combine these styles with the next block.
+ */
+.updated:not(.published) {
+	display: none;
+}
+
+.taxonomy-description p {
+	margin: 0.5384615385em 0 1.6153846154em;
+}
+
+.taxonomy-description > :last-child {
+	margin-bottom: 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.555555555555556em;
+}
+
+.page-links a,
+.page-links > span {
+	border: 1px solid;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	display: inline-block;
+	font-size: 13px;
+	font-size: 0.8125rem;
+	height: 2em;
+	line-height: 1.6923076923em;
+	margin-right: 0.3076923077em;
+	text-align: center;
+	text-decoration: none;
+	width: 2em;
+}
+
+.page-links a:hover,
+.page-links a:focus {
+	border-color: transparent;
+}
+
+.page-links > .page-links-title {
+	border: none;
+	height: auto;
+	margin: 0;
+	padding-right: 0.6153846154em;
+	width: auto;
+}
+
+.entry-attachment {
+	margin-bottom: 1.555555555555556em;
+}
+
+.entry-caption {
+	font-style: italic;
+	line-height: 1.6153846154;
+	padding-top: 7px;
+}
+
+.entry-caption > :last-child {
+	margin-bottom: 0;
+}
+
+.content-bottom-widgets {
+	clear: both;
+}
+
+.boxed-layout #page {
+	border: 1px solid;
+	margin: 58px auto;
+}

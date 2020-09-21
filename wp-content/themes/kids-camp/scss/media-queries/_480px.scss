@@ -1,0 +1,69 @@
+@media screen and (min-width: 30em) {
+	.product-content-wrapper {
+		padding: 0 15px;
+	}
+
+	.columns-2 ul.products li.product,
+	.columns-4 ul.products li.product,
+	.related ul.products li.product,
+	.upsells ul.products li.product,
+	.cross-sells ul.products li.product {
+		padding: 0 15px;
+		width: 50%;
+	}
+
+	.columns-2 ul.products li.product:nth-child(2n+1),
+	.columns-4 ul.products li.product:nth-child(2n+1) {
+		clear: both;
+	}
+
+	.columns-2 ul.products .onsale,
+	.columns-4 ul.products .onsale,
+	.related ul.products .onsale {
+		left: 15px;
+	}
+
+	#clock > .count-down {
+		width: 25%;
+	}
+
+	#clock > .count-down:nth-child(2):after {
+		content: ":";
+	}
+
+	.portfolio-content-wrapper.special .hentry {
+	    width: 50%;
+	}
+
+	.portfolio-content-wrapper.special .hentry:first-child {
+		width: 100%;
+	}
+
+	.portfolio-content-wrapper.special .hentry,
+	.portfolio-content-wrapper.special {
+		padding: 0 15px;
+	}
+
+	.portfolio-content-wrapper.special .hentry-inner {
+		min-height: 200px;
+	}
+
+	.portfolio-content-wrapper.special .hentry:first-child .hentry-inner {
+		min-height: 400px;
+	}
+
+	#team-content-section:before {
+	    min-height: 325px;
+	}
+
+	#clients-section:after,
+	#featured-content-section:after,
+	#team-content-section:after,
+	.why-choose-us-section:after {
+	    bottom: -29px;
+	}
+
+	.testimonial-content-section.section .has-post-thumbnail .post-thumbnail {
+	    top: -20%;
+	}
+}

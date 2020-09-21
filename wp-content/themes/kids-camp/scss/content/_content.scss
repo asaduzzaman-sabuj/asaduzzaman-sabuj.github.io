@@ -1,0 +1,53 @@
+#page {
+	margin: 0 auto;
+	overflow-x: hidden;
+	position: relative;
+	word-wrap: break-word;
+}
+
+.boxed-layout #page {
+	max-width: 1500px;
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 1480px;
+	position: relative;
+	width: 100%;
+}
+
+.header-media .wrapper,
+#promotion-section .wrapper,
+#footer-instagram .wrapper,
+#footer-newsletter .wrapper,
+#feature-slider-section .wrapper {
+	max-width: 100%;
+}
+
+.site-content {
+	overflow: hidden;
+	position: relative;
+	word-wrap: break-word;
+	z-index: 2;
+}
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+	outline: 0;
+}
+
+ /**	12.1 - Header
+ */
+ 		@import "header";
+
+ /**	12.2 - Posts and pages
+ */
+ 		@import "posts-and-pages";
+
+ /**    12.3 - Comments
+ */
+ 		@import "comments";
+
+ /**    12.4 - Footer
+ */
+		@import "footer";

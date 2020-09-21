@@ -1,0 +1,62 @@
+#hero-section .hentry {
+	position: relative;
+	padding: 0 30px;
+}
+
+#hero-section .entry-container {
+	clear: both;
+	width: 100%;
+}
+
+#hero-section:not(.has-content-frame) .post-thumbnail {
+	margin-bottom: 28px;
+}
+
+#hero-section.has-content-frame .entry-container {
+	padding: 30px 0;
+}
+
+#hero-section.text-aligned-left .entry-container {
+	text-align: left;
+}
+
+#hero-section.text-aligned-center .entry-container {
+	text-align: center;
+}
+
+#hero-section.text-aligned-right .entry-container {
+	text-align: right;
+}
+
+#hero-section .post-thumbnail {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	content: "";
+	float: left;
+	margin: 0;
+	padding-bottom: 100%;
+	position: relative;
+	width: 100%;
+}
+
+#hero-section .post-thumbnail a {
+	border: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.hero-content-wrapper .entry-container.full-width .entry-header,
+.hero-content-wrapper .entry-container.full-width .entry-content,
+.hero-content-wrapper .entry-container.full-width .entry-footer {
+	max-width: 990px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#hero-section .entry-container img {
+	margin-right: 14px;
+}

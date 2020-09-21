@@ -1,0 +1,910 @@
+/* Background Color */
+body {
+	background: $background-color;
+	/* Fallback for when there is no custom background color defined. */
+}
+
+ /* Header Text Color */
+.site-title a {
+ 	color: $header-text-color;
+ }
+
+/* Page Background Color */
+#page,
+#promotion-section.content-frame .entry-container,
+#footer-newsletter .has-background-image .widget-inner-wrap,
+.section-title-wrapper:after,
+.catch-instagram-feed-gallery-widget-wrapper .button,
+#clock > .count-down > span,
+body.absolute-header .site-header,
+.absolute-header.menu-is-on #header-navigation-area,
+.testimonial-content-section .hentry-inner,
+#header-top .search-container input[type=search].search-field,
+input[type="search"] {
+	background-color: $page-background-color;
+}
+
+.promotion-content-wrapper .entry-container-frame,
+#featured-content-section .section-content-wrapper .entry-price {
+	border-color: $page-background-color;
+}
+
+@media screen and (min-width: 64em) {
+	#site-product-search,
+	#site-cart-contents-items,
+	#header-menu-social,
+	.search-container,
+	.site-navigation ul ul,
+	.site-navigation ul ul li,
+	.header-top-bar .site-navigation ul ul,
+	.header-top-bar .site-navigation ul ul li {
+		background-color: $page-background-color;
+	}
+
+	.site-secondary-menu ul ul:after,
+	.site-secondary-menu #header-menu-social.toggled-on::after {
+		border-color: $page-background-color transparent;
+	}
+}
+
+/* Page Background Color Woocommerce */
+.woocommerce-shorting-wrapper .woocommerce-ordering select,
+.woocommerce-account .woocommerce-MyAccount-navigation a {
+	background-color: $page-background-color-woocommerce;
+}
+
+/* Secondary Background Color */
+hr,
+pre,
+.site .skip-link,
+.no-comments,
+.header-top-button-wrap,
+#hero-section.has-content-frame .entry-container,
+.sidebar .widget,
+.author-info,
+.header-media,
+.product-review-section .entry-container,
+.header-top-right .social-navigation a,
+.social-navigation a:hover,
+.social-navigation a:focus,
+.ctsocialwidget a:hover,
+.ctsocialwidget a:focus,
+.header-top-bar,
+#hero-section,
+#testimonial-content-section,
+#clients-section,
+.team-content-wrapper .post-thumbnail a,
+.comment-respond {
+	background-color: $secondary-background-color;
+}
+
+@media screen and (min-width: 64em) {
+	.site-secondary-menu ul ul:before,
+	#header-menu-social.toggled-on:before {
+		border-color: $secondary-background-color transparent;
+	}
+}
+
+.site-footer input[type="date"]:focus,
+.site-footer input[type="time"],
+.site-footer input[type="datetime-local"]:focus,
+.site-footer input[type="week"]:focus,
+.site-footer input[type="month"]:focus,
+.site-footer input[type="text"]:focus,
+.site-footer input[type="email"]:focus,
+.site-footer input[type="url"]:focus,
+.site-footer input[type="password"]:focus,
+.site-footer input[type="search"]:focus,
+.site-footer input[type="tel"]:focus,
+.site-footer input[type="number"]:focus,
+.site-footer textarea:focus,
+.site-footer fieldset:focus,
+.site-footer select:focus {
+	color: $secondary-background-color;
+}
+
+/* Secondary Background Color Woocommerce */
+@media screen and (min-width: 48em) {
+	table.shop_table .cart-subtotal th,
+	table.shop_table .order-total th {
+	    background-color: $secondary-background-color-woocommerce;
+	}
+}
+
+@media screen and (min-width: 64em) {
+	.site-header-cart .widget_shopping_cart {
+	    background-color: $secondary-background-color-woocommerce;
+	}
+}
+
+.product-review-section .entry-container:after {
+    border-color: $secondary-background-color-woocommerce transparent;
+}
+
+/* 40% of Secondary Background Color */
+.woocommerce-message,
+.woocommerce-info,
+.woocommerce-error,
+.woocommerce-noreviews,
+p.no-comments,
+.woocommerce-shorting-wrapper,
+.woocommerce-tabs .panel,
+ul.wc_payment_methods .payment_box,
+.woocommerce-tabs ul.tabs li.active a,
+.woocommerce-account .woocommerce-MyAccount-navigation a:hover,
+.woocommerce-account .woocommerce-MyAccount-navigation a:focus,
+.woocommerce-account .woocommerce-MyAccount-navigation .is-active a,
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="datetime-local"]:focus,
+input[type="week"]:focus,
+input[type="month"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+	background-color: $fourty-of-secondary-background-color;
+}
+
+/* Main Text Color */
+body,
+input,
+select,
+textarea,
+.entry-meta a,
+#footer-newsletter .ewnewsletter .widget-inner-wrap,
+.testimonial-content-section .cycle-prev,
+.testimonial-content-section .cycle-next,
+.post-navigation .nav-subtitle {
+	color: $main-text-color;
+}
+
+/* Button Text Color */
+#scrollup,
+.widget_calendar tbody a,
+#promotion-section .more-link .more-button,
+.page-links a,
+.posts-navigation a,
+.site-main #infinite-handle span button,
+.pagination .page-numbers.current,
+.sticky-post,
+mark,
+ins,
+button,
+.button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.header-media .more-link .more-button,
+#feature-slider-section .more-link .more-button,
+#countdown-section .more-link .more-button,
+#portfolio-content-section .entry-content,
+#portfolio-content-section .entry-summary,
+#portfolio-content-section .hentry .more-link,
+#portfolio-content-section .entry-title a,
+#portfolio-content-section .entry-meta a,
+#feature-slider-section.text-aligned-center .entry-container p,
+#feature-slider-section.text-aligned-center .entry-container .entry-title,
+#feature-slider-section.text-aligned-center .entry-container .entry-title a,
+#feature-slider-section .entry-title a,
+#feature-slider-section .entry-summary,
+#feature-slider-section .entry-content,
+.collection-wrapper .entry-title a,
+.view-all-button .more-link,
+#featured-content-section .section-content-wrapper .entry-price,
+#feature-slider-section .entry-header .entry-meta,
+#feature-slider-section .entry-header .sub-title {
+	color: $button-text-color;
+}
+
+/* Button Text Color Woocommerce */
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce button.button.alt,
+.woocommerce input.button,
+.woocommerce input.button.alt,
+.woocommerce .product-container .wc-forward,
+.woocommerce-pagination ul li span.current,
+.woocommerce-pagination ul li a:hover,
+.woocommerce-pagination ul li a:focus {
+	color: $button-text-color-woocommerce;
+}
+
+/* Button Hover Text Color */
+#scrollup:hover,
+#scrollup:focus,
+.widget_calendar tbody a:hover,
+.widget_calendar tbody a:focus,
+.header-media .more-link .more-button:hover,
+.header-media .more-link .more-button:focus,
+#feature-slider-section .more-link .more-button:hover,
+#feature-slider-section .more-link .more-button:focus,
+#promotion-section .more-link .more-button:hover,
+#promotion-section .more-link .more-button:focus,
+.page-links a:hover,
+.page-links a:focus,
+.posts-navigation a:hover,
+.posts-navigation a:focus,
+.site-main #infinite-handle span button:hover,
+.site-main #infinite-handle span button:focus,
+button:hover,
+button:focus,
+button[disabled]:hover,
+button[disabled]:focus,
+.button:hover,
+.button:focus,
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus,
+#feature-slider-section .cycle-prev:hover,
+#feature-slider-section .cycle-prev:focus,
+#feature-slider-section .cycle-next:hover,
+#feature-slider-section .cycle-next:focus,
+#testimonial-content-section .cycle-prev:hover,
+#testimonial-content-section .cycle-prev:focus,
+#testimonial-content-section .cycle-next:hover,
+#testimonial-content-section .cycle-next:focus,
+.woocommerce .product-container a.button:hover,
+.woocommerce .product-container a.button:focus,
+#countdown-section .more-link .more-button:hover,
+#countdown-section .more-link .more-button:focus,
+.view-all-button .more-link:hover,
+.view-all-button .more-link:focus {
+	color: $button-hover-text-color;
+}
+
+/* Button Hover Text Color Woocommerce */
+.onsale,
+.woocommerce #respond input#submit:hover,
+.woocommerce #respond input#submit:focus,
+.woocommerce a.button:hover,
+.woocommerce a.button:focus,
+.woocommerce button.button:hover,
+.woocommerce button.button:focus,
+.woocommerce button.button.alt:hover,
+.woocommerce button.button.alt:focus,
+.woocommerce input.button:hover,
+.woocommerce input.button:focus,
+.woocommerce input.button.alt:hover,
+.woocommerce input.button.alt:focus,
+.woocommerce .product-container .added,
+.woocommerce .product-container .wc-forward:hover,
+.woocommerce .product-container .wc-forward:focus {
+	color: $button-hover-text-color-woocommerce;
+}
+
+/* Button Background Color */
+.onsale,
+#scrollup,
+.widget_calendar tbody a,
+button,
+button[disabled]:hover,
+button[disabled]:focus,
+.button,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus,
+.sticky-post,
+.page-links a,
+.site-main #infinite-handle span button,
+.posts-navigation a,
+.pagination .page-numbers.current,
+#promotion-section .more-link .more-button,
+.header-media .more-link .more-button,
+#feature-slider-section .more-link .more-button,
+#countdown-section .more-link .more-button,
+.view-all-button .more-link,
+#featured-content-section .section-content-wrapper .entry-price-wrapper {
+	background-color: $button-background-color;
+}
+
+/* Button Background Color Woocommerce */
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce button.button.alt,
+.woocommerce input.button,
+.woocommerce input.button.alt,
+.woocommerce .product-container .wc-forward,
+.woocommerce-pagination ul li span.current,
+.woocommerce-pagination ul li a:hover,
+.woocommerce-pagination ul li a:focus {
+	background-color: $button-background-color-woocommerce;
+}
+
+.woocommerce-tabs ul.tabs li.active a {
+	border-color: $button-background-color-woocommerce;
+}
+
+/* Button Hover Background Color */
+#scrollup:hover,
+#scrollup:focus,
+.widget_calendar tbody a:hover,
+.widget_calendar tbody a:focus,
+.header-media .more-link .more-button:hover,
+.header-media .more-link .more-button:focus,
+#feature-slider-section .more-link .more-button:hover,
+#feature-slider-section .more-link .more-button:hover,
+.custom-header-media .wp-custom-header-video-button.wp-custom-header-video-pause,
+.custom-header-media .wp-custom-header-video-button:hover,
+.custom-header-media .wp-custom-header-video-button:focus,
+button:hover,
+button:focus,
+.button:hover,
+.button:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+.page-links a:hover,
+.page-links a:focus,
+.site-main #infinite-handle span button:hover,
+.site-main #infinite-handle span button:focus,
+.posts-navigation a:hover,
+.posts-navigation a:focus,
+#promotion-section .more-link .more-button:hover,
+#promotion-section .more-link .more-button:focus,
+.catch-instagram-feed-gallery-widget-wrapper .instagram-button .button:hover,
+.catch-instagram-feed-gallery-widget-wrapper .instagram-button .button:focus,
+.tagcloud a:hover,
+.tagcloud a:focus,
+#feature-slider-section .cycle-prev:hover,
+#feature-slider-section .cycle-prev:focus,
+#feature-slider-section .cycle-next:hover,
+#feature-slider-section .cycle-next:focus,
+#testimonial-content-section .cycle-prev:hover,
+#testimonial-content-section .cycle-prev:focus,
+#testimonial-content-section .cycle-next:hover,
+#testimonial-content-section .cycle-next:focus,
+.woocommerce .product-container a.button:hover,
+.woocommerce .product-container a.button:focus,
+#countdown-section .more-link .more-button:hover,
+#countdown-section .more-link .more-button:focus,
+.view-all-button .more-link:hover,
+.view-all-button .more-link:focus,
+#featured-content-section .section-content-wrapper .entry-price-wrapper:hover,
+#featured-content-section .section-content-wrapper .entry-price-wrapper:focus {
+	background-color: $button-hover-background-color;
+}
+
+.tagcloud a:hover,
+.tagcloud a:focus,
+#feature-slider-section .cycle-prev:hover,
+#feature-slider-section .cycle-prev:focus,
+#feature-slider-section .cycle-next:hover,
+#feature-slider-section .cycle-next:focus,
+.custom-header-media .wp-custom-header-video-button.wp-custom-header-video-pause,
+.custom-header-media .wp-custom-header-video-button:hover,
+.custom-header-media .wp-custom-header-video-button:focus {
+	border-color: $button-hover-background-color;
+}
+
+/* Button Hover Background Color Woocommerce */
+.woocommerce #respond input#submit:hover,
+.woocommerce #respond input#submit:focus,
+.woocommerce a.button:hover,
+.woocommerce a.button:focus,
+.woocommerce button.button:hover,
+.woocommerce button.button:focus,
+.woocommerce button.button.alt:hover,
+.woocommerce button.button.alt:focus,
+.woocommerce input.button:hover,
+.woocommerce input.button:focus,
+.woocommerce input.button.alt:hover,
+.woocommerce input.button.alt:focus,
+.woocommerce .product-container .added,
+.woocommerce .product-container .wc-forward:hover,
+.woocommerce .product-container .wc-forward:focus {
+	background-color: $button-hover-background-color-woocommerce;
+}
+
+/* Link Color */
+a,
+.site-navigation .current-menu-item > a,
+.site-navigation .current_page_item > a,
+.menu-toggle,
+.dropdown-toggle,
+.search-submit,
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="datetime-local"]:focus,
+input[type="week"]:focus,
+input[type="month"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+textarea:focus,
+.comment-metadata .comment-reply-link,
+.widget-title a,
+.woocommerce-breadcrumb a,
+.comment-metadata a:hover,
+.comment-metadata a:focus,
+.comment-form label,
+#cancel-comment-reply-link:hover,
+#cancel-comment-reply-link:focus,
+.pagination .prev.page-numbers,
+.pagination .next.page-numbers,
+#search-toggle-main .icon,
+.collection-wrapper .entry-header .entry-meta a,
+.woocommerce-Price-amount,
+.custom-header-content .site-header-text,
+.custom-header-content .entry-title,
+.custom-header-content .site-header-text a,
+#feature-slider-section .cycle-prev,
+#feature-slider-section .cycle-next,
+#promotion-section .entry-content,
+#promotion-section .entry-summary,
+.testimonial-content-section .cycle-prev:hover,
+.testimonial-content-section .cycle-prev:focus,
+.testimonial-content-section .cycle-next:hover,
+.testimonial-content-section .cycle-next:focus,
+.catch-instagram-feed-gallery-widget-wrapper .button,
+#clients-section .cycle-prev:hover,
+#clients-section .cycle-prev:focus,
+#clients-section .cycle-next:hover,
+#clients-section .cycle-next:focus,
+#clock,
+.cycle-pager .cycle-pager-active,
+#search-toggle-main .icon:hover,
+#search-toggle-main .icon:focus,
+#featured-content-section .more-link:hover,
+#featured-content-section .more-link:focus,
+.top-main-wrapper .contact-address,
+#featured-content-section .section-content-wrapper .entry-meta span,
+.more-button:hover,
+.more-button:focus,
+.drop-cap:before,
+.header-top-bar .contact-details li,
+#promotion-section .section-subtitle,
+#promotion-section .entry-title {
+	color: $link-color;
+}
+
+mark,
+ins,
+.site-footer .social-navigation a:hover,
+.site-footer .social-navigation a:focus,
+.ctsocialwidget a:hover,
+.ctsocialwidget a:focus {
+	background-color: $link-color;
+}
+
+.site-main .more-link .more-button {
+	border-color: $link-color;
+}
+
+/* 40% of Link Color */
+.portfolio-content-wrapper .entry-container {
+	background-color: $fourty-link-color;
+}
+
+/* 60% of Link Color */
+.site-description {
+	color: $sixty-link-color;
+}
+
+/* Link Color Woocommerce */
+.woocommerce-tabs ul.tabs li.active a,
+.single-product div.product .woocommerce-product-rating .woocommerce-review-link:hover,
+.single-product div.product .woocommerce-product-rating .woocommerce-review-link:focus,
+.single-product .product_meta a:hover,
+.single-product .product_meta a:focus,
+.woocommerce-info a:hover,
+.woocommerce-info a:focus,
+.variations .reset_variations:hover,
+.variations .reset_variations:focus {
+	color: $link-color-woocommerce;
+}
+
+/* Link Hover Color */
+a:hover,
+a:focus,
+a:active,
+.site-title a:hover,
+.site-title a:focus,
+.menu-toggle:hover,
+.menu-toggle:focus,
+.menu-toggle.toggled-on,
+.menu-toggle.toggled-on:hover,
+.menu-toggle.toggled-on:focus,
+#search-toggle-right:hover,
+#search-toggle:hover,
+#search-toggle-right:focus,
+#search-toggle:focus,
+.search-submit:hover,
+.search-submit:focus,
+.dropdown-toggle:hover,
+.dropdown-toggle:focus,
+.required,
+.entry-title a:hover,
+.entry-title a:focus,
+.entry-meta .icon:hover,
+.entry-meta .icon:focus,
+.site-info a:hover,
+.site-info a:focus,
+.pingback .comment-edit-link:hover,
+.pingback .comment-edit-link:focus,
+#feature-slider-section .entry-title a:hover,
+#feature-slider-section .entry-title a:focus,
+#feature-slider-section .entry-meta a:hover,
+#feature-slider-section .entry-meta a:focus,
+#feature-slider-section .entry-meta .icon:hover,
+#feature-slider-section .entry-meta .icon:focus,
+.social-navigation a:hover,
+.social-navigation a:focus,
+.site .skip-link,
+.woocommerce-breadcrumb a:hover,
+.woocommerce-breadcrumb a:focus,
+.comment-metadata .comment-reply-link:hover,
+.comment-metadata .comment-reply-link:focus,
+.custom-header-content .entry-title a:hover,
+.custom-header-content .entry-title a:focus,
+.custom-header-content .entry-meta a:hover,
+.custom-header-content .entry-meta a:focus,
+.tagcloud a,
+#cancel-comment-reply-link,
+.pagination .prev.page-numbers:hover,
+.pagination .prev.page-numbers:focus,
+.pagination .next.page-numbers:hover,
+.pagination .next.page-numbers:focus,
+#portfolio-content-section .entry-title a:hover,
+#portfolio-content-section .entry-title a:focus,
+#portfolio-content-section .entry-meta a:hover,
+#portfolio-content-section .entry-meta a:focus,
+#portfolio-content-section .hentry .more-link:hover,
+#portfolio-content-section .hentry .more-link:focus,
+.collection-wrapper .entry-header .entry-meta a:hover,
+.collection-wrapper .entry-header .entry-meta a:focus,
+ul.products li.product a:hover .woocommerce-loop-product__title,
+ul.products li.product a:focus .woocommerce-loop-product__title,
+.woocommerce-Price-amount:hover,
+.woocommerce-Price-amount:focus,
+.entry-breadcrumbs a:hover,
+.entry-breadcrumbs a:focus,
+.woocommerce .woocommerce-breadcrumb a:hover,
+.woocommerce .woocommerce-breadcrumb a:focus,
+#search-toggle-top,
+.header-top-bar .header-top-left svg,
+.header-top-bar svg:hover,
+.header-top-bar svg:focus,
+.header-top-bar .dropdown-toggle,
+.header-top-bar a:hover,
+.header-top-bar a:focus,
+.header-top-bar .site-navigation .current-menu-item > a,
+.header-top-bar .site-navigation .current_page_item > a,
+#featured-content-section .more-link,
+.more-button,
+#search-toggle-main .icon:hover,
+#search-toggle-main .icon:focus,
+.widget-area .essential-widgets .tagcloud a:hover,
+.widget-area .essential-widgets .tagcloud a:focus,
+.widget-area .essential-widgets .tagcloud.rounded-corners a:hover,
+.widget-area .essential-widgets .tagcloud.rounded-corners a:focus {
+	color: $link-hover-color;
+}
+
+.no-comments,
+#hero-section .entry-title:after,
+.section-title:after,
+#footer-instagram .widget-title:after,
+.section-title-wrapper:after,
+.site-main .more-link:hover .more-button,
+.site-main .more-link:focus .more-button,
+#hero-section.text-aligned-center .section-title-wrapper:after,
+.section-title-wrapper:after {
+	border-color: $link-hover-color;
+}
+
+/* Link Hover Color Woocommerce */
+.single-product div.product .woocommerce-product-rating .woocommerce-review-link,
+.single-product .product_meta a,
+.woocommerce-info a,
+.variations .reset_variations,
+.woocommerce-tabs ul.tabs li a:hover,
+.woocommerce-tabs ul.tabs li a:focus,
+.demo_store .woocommerce-store-notice__dismiss-link:hover,
+.demo_store .woocommerce-store-notice__dismiss-link:focus {
+	color: $link-hover-color-woocommerce;
+}
+
+.woocommerce-info,
+.woocommerce-message,
+.rtl .woocommerce-info,
+.rtl .woocommerce-message {
+	border-color: $link-hover-color-woocommerce;
+}
+
+/* Secondary Link Color */
+.widget_rss .rss-date,
+.widget_rss cite,
+#search-toggle-right,
+#search-toggle,
+.entry-caption,
+.wp-caption .wp-caption-text,
+.woocommerce-breadcrumb,
+.comment-metadata,
+.pingback .edit-link,
+.comment-metadata a,
+.pingback .comment-edit-link,
+.comment-notes,
+.comment-awaiting-moderation,
+.logged-in-as,
+.form-allowed-tags,
+.site-info a,
+.site-footer a:hover,
+.site-footer a:focus,
+.site-footer .widget_archive a,
+.site-footer .widget_categories a,
+#clients-section .cycle-prev,
+#clients-section .cycle-next,
+.menu-top-toggle:hover,
+.menu-top-toggle:focus,
+blockquote:before {
+	color: $secondary-link-color;
+}
+
+/* Heading Text Color */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.drop-cap::first-letter,
+.page-links > .page-links-title,
+#reply-title,
+.entry-title a,
+ins .amount,
+.section-title,
+.post-navigation .nav-title {
+	color: $heading-text-color;
+}
+
+/* 86% of Heading Text Color */
+blockquote {
+	color: $eighty-six-heading-text-color;
+}
+
+/* Tertiary Background Color */
+body:not(.home) .header-media,
+.site-footer pre,
+.site-footer thead th,
+.site-footer input[type="date"],
+.site-footer input[type="time"],
+.site-footer input[type="datetime-local"],
+.site-footer input[type="week"],
+.site-footer input[type="month"],
+.site-footer input[type="text"],
+.site-footer input[type="email"],
+.site-footer input[type="url"],
+.site-footer input[type="password"],
+.site-footer input[type="search"],
+.site-footer input[type="tel"],
+.site-footer input[type="number"],
+.site-footer textarea,
+.site-footer fieldset,
+.site-footer select,
+.social-navigation a,
+.ctsocialwidget a,
+#portfolio-content-section,
+#gallery-content-section,
+#contact-section,
+.testimonial-content-section .cycle-prev,
+.testimonial-content-section .cycle-next,
+#feature-slider-section .cycle-prev,
+#feature-slider-section .cycle-next,
+#footer-newsletter {
+	background-color: $tertiary-background-color;
+}
+
+.cycle-pager span {
+	color: $tertiary-background-color;
+}
+
+/* Tertiary Background Color Woocommerce */
+.demo_store {
+	background-color: $tertiary-background-color-woocommerce;
+}
+
+#footer-newsletter input[type="email"]:focus {
+	color: $tertiary-background-color-woocommerce;
+}
+
+/* 93% of Tertiary Background Color */
+.site-footer {
+	background-color: $ninty-three-tertiary-background-color;
+}
+
+/* Text color with background */
+#promotion-section.content-color-white .entry-title,
+#promotion-section.content-color-white .entry-title a,
+#promotion-section.content-color-white .entry-container,
+#promotion-section.content-color-white .entry-content,
+#promotion-section.content-color-white .entry-summary,
+.custom-header-media .wp-custom-header-video-button,
+.custom-header-media .wp-custom-header-video-button.wp-custom-header-video-pause,
+.custom-header-media .wp-custom-header-video-button:hover,
+.custom-header-media .wp-custom-header-video-button:focus,
+body:not(.home) .header-media .custom-header-content .entry-title,
+.woocommerce .woocommerce-breadcrumb,
+.custom-header .entry-container,
+.woocommerce .woocommerce-breadcrumb a,
+#feature-slider-section .entry-header .entry-meta a,
+.home .header-media .custom-header-content .sub-title,
+.custom-header-content.text-aligned-center .entry-container p,
+.custom-header-content.text-aligned-center .entry-container .entry-title, 
+.custom-header-content.text-aligned-center .entry-container .entry-title a {
+	color: $text-color-with-background;
+}
+
+/* Text color with background Woocommerce */
+.demo_store {
+	color: $text-color-with-background-woocommerce;
+}
+
+/* Border Color */
+.boxed-layout #page,
+table,
+th,
+td,
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea,
+.site-footer-menu,
+.section-content-wrapper .post-wrapper,
+.page-links a,
+.page-links > span,
+.comment-list article,
+.comment-list .pingback,
+.comment-list .trackback,
+.image-navigation,
+.comment-navigation,
+#search-top-container,
+.archive-posts-wrapper .post-wrapper .entry-container,
+.menu-primary-toggle,
+.absolute-header.menu-is-on .site-primary-menu.toggled-on,
+body:not(.absolute-header) #header-navigation-area,
+.featured-content-wrapper .hentry-inner {
+	border-color: $border-color;
+}
+
+@media screen and (min-width: 64em) {
+	.site-secondary-menu ul ul,
+	#header-menu-social.toggled-on,
+	.primary-search-wrapper .social-navigation,
+	.secondary-search-wrapper .social-navigation {
+		border-color: $border-color;
+	}
+}
+
+/* Border Color Woocommerce */
+table.cart .product-thumbnail img,
+.single-product .product_meta,
+.product_list_widget li img,
+#reviews .comment-respond,
+.woocommerce ul.cart_list li,
+.woocommerce ul.product_list_widget li,
+.woocommerce-account .woocommerce-MyAccount-navigation,
+.woocommerce-account .woocommerce-MyAccount-navigation li,
+.single-product div.product .woocommerce-product-gallery__image,
+.single-product div.product .woocommerce-product-gallery .flex-control-thumbs li img,
+.product-review-section .entry-content .attachment-woocommerce_thumbnail img {
+	border-color: $border-color-woocommerce;
+}
+
+@media screen and (min-width: 64em) {
+	#site-product-search .widget {
+		border-color: $border-color-woocommerce;
+	}
+}
+
+/* Tertiary Text Color */
+.site-footer a,
+.site-footer .widget .widget-title,
+.site-footer .social-navigation a,
+#site-generator .menu-toggle,
+.numbers-section-headline .section-title,
+.numbers-content-wrapper .entry-title a,
+.numbers-content-wrapper .entry-summary p,
+#team-content-section .section-title,
+#countdown-section .section-title {
+	color: $tertiary-text-color;
+}
+
+/* 18% of Tertiary Text Color */
+.site-footer table,
+.site-footer th,
+.site-footer table td,
+.site-footer input[type="date"]:focus,
+.site-footer input[type="time"],
+.site-footer input[type="datetime-local"]:focus,
+.site-footer input[type="week"]:focus,
+.site-footer input[type="month"]:focus,
+.site-footer input[type="text"]:focus,
+.site-footer input[type="email"]:focus,
+.site-footer input[type="url"]:focus,
+.site-footer input[type="password"]:focus,
+.site-footer input[type="search"]:focus,
+.site-footer input[type="tel"]:focus,
+.site-footer input[type="number"]:focus,
+.site-footer textarea:focus,
+.site-footer fieldset:focus,
+.site-footer select:focus,
+.site-info {
+	border-color: $eighteen-tertiary-text-color;
+}
+
+.site-footer .social-navigation a,
+.ctsocialwidget a {
+	background-color: $eighteen-tertiary-text-color;
+}
+
+/* Tertiary Text Hover Color */
+#site-generator .menu-toggle:hover,
+#site-generator .menu-toggle:focus,
+.site-footer .social-navigation a:hover,
+.site-footer .social-navigation a:focus,
+.site-footer .widget_archive a:hover,
+.site-footer .widget_archive a:focus,
+.site-footer .widget_categories a:hover,
+.site-footer .widget_categories a:focus,
+.ctsocialwidget a:hover,
+.ctsocialwidget a:focus {
+	color: $tertiary-text-hover-color;
+}
+
+/* Tertiary Text Hover Color Woocommerce */
+.demo_store .woocommerce-store-notice__dismiss-link {
+	color: $tertiary-text-hover-color-woocommerce;
+}
+
+/* Numbers Section Background Color */
+#numbers-section {
+	background: $numbers-section-background-color;
+}
+
+.tagcloud a {
+	background: $widget-tags-background-color;
+	color: #fff;
+}
+
+.site-info .copyright,
+.site-footer .ew-about,
+.widget_recent_entries .post-date {
+	color: #888888;
+}
+
+#promotion-section.content-frame .entry-container-frame {
+	border-color: $tertiary-background-color;
+}

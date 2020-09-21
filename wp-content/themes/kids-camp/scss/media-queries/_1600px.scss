@@ -1,0 +1,199 @@
+@media screen and (min-width: 100em) {
+	/* Woocommerce Styles */
+	.woocommerce-tabs .panel h2:first-of-type {
+		font-size: 36px;
+		font-size: 2.25rem;
+		margin-bottom: 21px;
+	}
+
+	ul.products li.product img {
+		margin: 0 auto 28px;
+	}
+
+	.woocommerce-tabs ul.tabs {
+		margin: 70px 0 0
+	}
+
+	.woocommerce-pagination {
+		margin-top: 14px;
+	}
+
+	/* Woocommerce Styles End */
+
+	.section-content-wrapper .post-thumbnail {
+	    margin: 0 0 28px;
+	}
+
+	.section-heading-wrapper {
+		padding: 42px 50px;
+	}
+
+	.section,
+	.site-content,
+	#footer-newsletter .widget,
+	#footer-newsletter .widget.has-background-image {
+		padding: 70px 0;
+	}
+
+	.author-info,
+	.singular-content-wrap .post-thumbnail,
+	.singular-content-wrap .entry-footer {
+		margin: 49px 0;
+	}
+
+	.singular-content-wrap .entry-content {
+		margin-bottom: 49px;
+	}
+
+	.comments-area,
+	.singular-content-wrap .entry-header,
+	.archive .page-header,
+	.error404 .page-header,
+	.search .page-header,
+	.woocommerce-products-header {
+		margin-bottom: 49px;
+	}
+
+	.content-bottom-widgets {
+		padding-top: 91px;
+	}
+
+	.testimonial-content-section.layout-two .cycle-prev,
+	.testimonial-content-section.layout-two .cycle-next {
+		display: block
+	}
+
+	#footer-newsletter .has-background-image .widget-inner-wrap {
+		padding: 49px 91px;
+	}
+
+	.sidebar .widget {
+		padding: 35px;
+	}
+
+	#feature-slider-section .cycle-prev .icon,
+	#feature-slider-section .cycle-next .icon {
+		font-size: 28px;
+		font-size: 1.75rem;
+	}
+
+	.home .custom-header-content,
+	#feature-slider-section .slider-content-wrapper {
+		padding: 294px 50px;
+	}
+
+	.home .custom-header .custom-header-content.content-center-top,
+	#feature-slider-section.content-center-top .slider-content-wrapper {
+		padding: 61px 50px 498px 50px;
+	}
+
+	.home .custom-header .custom-header-content.content-center-bottom,
+	#feature-slider-section.content-center-bottom .slider-content-wrapper {
+		padding: 498px 50px 61px 50px;
+	}
+
+	.testimonial-content-section .post-thumbnail img {
+	    width: 110px;
+	    height: 110px;
+
+	}
+
+	.testimonial-content-section .hentry-inner-header {
+		margin-top: 35px;
+	}
+
+	#countdown-section + .section,
+	#promotion-section + .section,
+	#team-content-section.section,
+	.custom-header + .section,
+	.recent-blog-section.section,
+	#feature-slider-section + .section,
+	.section.no-section-heading,
+	#featured-content-section,
+	#clients-section,
+	.services-section,
+	.why-choose-us-section.section {
+		padding-top: 91px;
+	}
+
+	#hero-section:not(.has-content-frame) .entry-container {
+	    padding: 91px 0;
+	}
+
+	.portfolio-content-wrapper.special .hentry {
+		margin-bottom: 40px;
+	}
+
+	 #countdown-section .entry-container {
+	 	padding: 200px 50px 180px 50px;
+	}
+
+	.portfolio-content-wrapper.special .hentry-inner {
+		min-height: 440px;
+	}
+
+	.portfolio-content-wrapper.special .hentry:first-child .hentry-inner {
+	    min-height: 920px;
+	}
+
+	.archive-posts-wrapper .layout-one .hentry {
+		margin-bottom: 56px;
+	}
+
+	body:not(.home) .section-content-wrapper .entry-summary,
+	body:not(.home) .section-content-wrapper .entry-content {
+		margin: 21px 0 0;
+	}
+
+	// .section {
+	//     padding: 28px 0;
+	// }
+
+	#footer-instagram .widget-title {
+		margin-bottom: 42px;
+		margin-top: 70px;
+	}
+
+	#team-content-section:before {
+	    min-height: 355px;
+	}
+
+	.contact-section .entry-container {
+	    padding: 140px 70px;
+	}
+
+	#contact-section .entry-title {
+	    padding: 0 0 42px;
+	}
+
+	#testimonial-content-section,
+	#contact-section,
+	#numbers-section.section,
+	#gallery-content-section {
+		padding-top: 200px;
+	}
+
+	#clients-section:after,
+	#featured-content-section:after,
+	#team-content-section:after,
+	.why-choose-us-section:after {
+	    bottom: -95px;
+	}
+
+	.special-image {
+	    padding-top: 70px;
+	}
+
+	.services-section .post-thumbnail{
+		margin-right: 0;
+	}
+
+	.boxed-layout{
+		#clients-section:after,
+		#featured-content-section:after,
+		#team-content-section:after,
+		.why-choose-us-section:after {
+		    bottom: -90px;
+		}
+	}
+}

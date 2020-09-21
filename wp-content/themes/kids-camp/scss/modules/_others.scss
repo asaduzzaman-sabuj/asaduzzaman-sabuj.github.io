@@ -1,0 +1,334 @@
+#footer-instagram .widget {
+	margin: 0;
+	padding: 0;
+}
+
+#footer-instagram .widget-title {
+	background-color: transparent;
+	letter-spacing: 0;
+	max-width: 1025px;
+	margin: 42px auto 35px;
+	padding: 0 30px;
+	text-align: center;
+}
+
+.catch-instagram-feed-gallery-widget .instagram-button {
+	margin: 0;
+}
+
+.catch-instagram-feed-gallery-widget-wrapper .button {
+	border: none;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	display: inline-block;
+	line-height: 1.647058823529412;
+	margin-top: 0;
+	padding: 7px 14px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper .default .item,
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper.default .item {
+	margin: 0;
+}
+
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper .default .item,
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper.default .item {
+	width: 16.666%;
+}
+
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper .default .item:nth-child(3n+1),
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper.default .item:nth-child(3n+1) {
+	clear: none;
+}
+
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper .default .item:nth-child(6n+1),
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper.default .item:nth-child(6n+1) {
+	clear: both;
+}
+
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper .default,
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper.default {
+	position: relative;
+}
+
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper .default .instagram-button,
+#footer-instagram .catch-instagram-feed-gallery-widget-wrapper.default .instagram-button {
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.widget.essential-widgets {
+	clear: none;
+}
+
+#footer-newsletter .wrapper {
+	text-align: center;
+}
+
+#footer-newsletter .widget {
+	clear: both;
+	display: block;
+}
+
+#footer-newsletter .widget-inner {
+	max-width: 730px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+#footer-newsletter .ewnewsletter .hentry {
+	float: none;
+	margin: 0 0 2.470588235294118em;
+}
+
+#footer-newsletter .ewnewsletter .before-text,
+#footer-newsletter .ewnewsletter .after-text {
+	clear: both;
+	display: block;
+	margin: 0 0 2.470588235294118em;
+}
+
+#footer-newsletter .ewnewsletter .before-text {
+	font-style: italic;
+}
+
+#footer-newsletter .has-background-image .widget-inner-wrap {
+	opacity: 0.9;
+	padding: 7px 35px;
+}
+
+#footer-newsletter .widget.ew-newsletter {
+	margin: 0;
+}
+
+#footer-newsletter .ewnewsletter .ew-newsletter-wrap #subbutton {
+	line-height: 1;
+	margin: 7px 0;
+}
+
+#footer-newsletter .ewnewsletter .ew-newsletter-wrap .ew-newsletter-subbox {
+	border-top-left-radius: 26px;
+	border-bottom-left-radius: 26px;
+}
+
+#footer-newsletter .ew-newsletter-wrap form {
+	display: block;
+}
+
+#footer-newsletter .ewnewsletter .ew-newsletter-wrap .ew-newsletter-subbox {
+	margin-bottom: 15px;
+}
+
+#footer-newsletter input[type="email"],
+#footer-newsletter input[type="submit"] {
+	float: left;
+}
+
+// Why Choose Us
+
+.why-choose-us-section .section-content-wrapper {
+    padding: 0 15px;
+}
+
+.why-choose-us-section .hentry {
+	text-align: center;
+	padding: 0 15px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.why-choose-us-content-area {
+	position: relative;
+	z-index: 2;
+}
+
+.why-choose-us-section .main-image {
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: none;
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.why-choose-us-content-area .post-thumbnail {
+	margin: 0 0 30px;
+}
+
+// Contact Info
+
+#contact-section .entry-container {
+    clear: both;
+    padding: 0 30px;
+}
+
+#contact-section .entry-title {
+	padding: 0 0 30px;
+}
+
+#contact-section .contact-details li {
+	padding: 15px 0;
+}
+
+#contact-section::before {
+	background-image: url('assets/images/contact-bg.jpg');
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	content: '';    
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+
+#contact-section .entry-container .entry-content {
+	max-width: 100%;
+}
+
+#contact-section .entry-container .entry-content .wpcf7-textarea {
+	max-height: 150px;
+}
+
+// form our blog
+#infinite-handle,
+.infinite-loader.masonry-brick {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+#infinite-handle {
+	bottom: -49px;
+}
+
+
+// Section Border
+#clients-section,
+#featured-content-section,
+#team-content-section,
+.why-choose-us-section {
+	position: relative;
+}
+
+#clients-section .wrapper,
+#featured-content-section .wrapper,
+#team-content-section .wrapper,
+.why-choose-us-section .wrapper {
+	position: relative;
+	z-index: 2;
+}
+
+.why-choose-us-section .wrapper {
+	position: static;
+}
+
+.why-choose-us-content-area .post-thumbnail img {
+	max-width: 256px;
+}
+
+#clients-section:after,
+#featured-content-section:after,
+#team-content-section:after,
+.why-choose-us-section:after {
+    content: "";
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: absolute;
+    bottom: -19px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+
+#clients-section:after {
+	background-image: url(assets/images/clouds-logo.png);
+}
+
+#featured-content-section:after,
+#team-content-section:after,
+.why-choose-us-section:after {
+	background-image: url(assets/images/clouds.png);
+}
+
+
+.color-scheme-dark {
+	#clients-section:after {
+		background-image: url(assets/images/clouds-dark-logo.png);
+	}
+
+	#featured-content-section:after,
+	#team-content-section:after,
+	.why-choose-us-section:after {
+		background-image: url(assets/images/clouds-dark.png);
+	}
+
+	.featured-content-wrapper .post-thumbnail:after {
+	  background-image: url(assets/images/bg-pattern-dark.png);
+	}
+}
+
+.color-scheme-red {
+	#clients-section:after {
+		background-image: url(assets/images/clouds-red-logo.png);
+	}
+
+	#featured-content-section:after,
+	#team-content-section:after,
+	.why-choose-us-section:after {
+		background-image: url(assets/images/clouds-red.png);
+	}
+
+	.featured-content-wrapper .post-thumbnail:after {
+	  background-image: url(assets/images/bg-pattern-red.png);
+	}
+}
+
+.color-scheme-gray {
+	#clients-section:after {
+		background-image: url(assets/images/clouds-gray-logo.png);
+	}
+
+	#featured-content-section:after,
+	#team-content-section:after,
+	.why-choose-us-section:after {
+		background-image: url(assets/images/clouds-gray.png);
+	}
+
+	.featured-content-wrapper .post-thumbnail:after {
+	  background-image: url(assets/images/bg-pattern-grey.png);
+	}
+}
+
+.color-scheme-yellow {
+	#clients-section:after {
+		background-image: url(assets/images/clouds-yellow-logo.png);
+	}
+
+	#featured-content-section:after,
+	#team-content-section:after,
+	.why-choose-us-section:after {
+		background-image: url(assets/images/clouds-yellow.png);
+	}
+
+	.featured-content-wrapper .post-thumbnail:after {
+	  background-image: url(assets/images/bg-pattern-yellow.png);
+	}
+}
+
+body.infinite-scroll .archive-posts-wrapper .section-content-wrapper {
+	padding-bottom: 49px;
+}

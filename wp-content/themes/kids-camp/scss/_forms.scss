@@ -1,0 +1,137 @@
+button,
+button[disabled]:hover,
+button[disabled]:focus,
+.button,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus,
+.posts-navigation a,
+.site-main #infinite-handle span button,
+.header-media .more-link .more-button,
+#feature-slider-section .more-link .more-button,
+#promotion-section .more-link .more-button,
+#countdown-section .more-link .more-button,
+.view-all-button .more-link {
+	-webkit-border-radius: 26px;
+	border-radius: 30px;
+	border: none;
+	display: inline-block;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: capitalize;
+	-webkit-transition: 0.5s ease;
+	-moz-transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	transition: 0.5s ease;
+}
+
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus {
+	outline: thin dotted;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea,
+#subbutton {
+	border: 1px solid;
+	border-color: transparent;
+	-webkit-border-radius: 0;
+	border-radius: 30px;
+	margin-top: 7px;
+	width: 100%;
+}
+
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="datetime-local"]:focus,
+input[type="week"]:focus,
+input[type="month"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+	outline: 0;
+}
+
+.post-password-form {
+	margin-bottom: 1.555555555555556em;
+}
+
+.post-password-form label {
+	display: block;
+	margin-bottom: 1.555555555555556em;
+	text-transform: uppercase;
+}
+
+.post-password-form input[type="password"] {
+	margin-top: 0.824em;
+}
+
+.post-password-form > :last-child {
+	margin-bottom: 0;
+}
+
+.search-form {
+	position: relative;
+}
+
+input[type="search"].search-field {
+	font-size: 14px;
+	font-size: 0.875rem;
+	-webkit-appearance: none;
+	line-height: 1.5;
+	margin: 0;
+	padding-right: 41px;
+	width: 100%;
+}
+
+.search-submit {
+	background-color: transparent;
+	border: none;
+	border-radius: 0;
+	bottom: 0;
+	font-size: 15px;
+	font-size: 0.9375rem;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 41px;
+}
+
+.search-submit:hover,
+.search-submit:focus {
+	background-color: transparent;
+}
+
+select {
+	background-color: transparent;
+	border: 1px solid;
+	font-size: 14px;
+	font-size: 0.875rem;
+	padding: 12px 18px;
+}

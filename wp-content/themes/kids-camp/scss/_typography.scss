@@ -1,0 +1,412 @@
+body,
+button,
+input,
+select,
+textarea {
+	font-size: 18px;
+	font-size: 1.125rem;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.56;
+	letter-spacing: normal;
+}
+
+.drop-cap:first-letter,
+blockquote:before {
+	font-size: 96px;
+	font-size: 6rem;
+	font-weight: 700;
+}
+
+.numbers-content-wrapper .entry-title {
+	font-size: 70px;
+	font-size: 4.375rem;
+}
+
+#feature-slider-section .entry-header .sub-title,
+.header-media .custom-header-content .entry-title,
+#feature-slider-section .entry-title {
+	font-size: 56px;
+	font-size: 3.5rem;
+	line-height: 1.13;
+}
+
+.single .page-title {
+	margin-bottom: 0;
+}
+
+.post-wrapper .entry-title {
+	line-height: 1.25;
+}
+
+.section-title,
+.promotion-content-wrapper .entry-title,
+.comments-title,
+.comment-reply-title,
+#footer-instagram .widget-title,
+#contact-section .entry-title {
+	font-size: 42px;
+	font-size: 2.625rem;
+	line-height: 1.17;
+}
+
+blockquote,
+.custom-header-content .site-header-text,
+#feature-slider-section .entry-summary,
+.comment-reply-title small a,
+.testimonial-content-section .entry-title,
+#featured-content-section .entry-title,
+.collection-wrapper .entry-header .entry-meta {
+	font-size: 36px;
+	font-size: 2.25rem;
+}
+
+.page-title,
+.post-wrapper .entry-title
+.singular-content-wrap .entry-title,
+.collection-wrapper .entry-title,
+.collection-wrapper .woocommerce-loop-product__title {
+	font-size: 35px;
+	font-size: 2.1875rem;
+	line-height: 1.31;
+}
+
+.blog .hentry .entry-title,
+.sidebar .widget .widget-title,
+#clock .count-down .countdown-label,
+#feature-slider-section .entry-content,
+.portfolio-content-wrapper .entry-title {
+	font-size: 28px;
+	font-size: 1.75rem;
+}
+
+.button,
+button,
+input[type=submit],
+.more-link,
+.promotion-content-wrapper .more-button,
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.services-section .more-link,
+#featured-content-section .more-link,
+#feature-slider-section .more-link .more-button,
+#infinite-handle span button, 
+#infinite-handle span button:focus, 
+#infinite-handle span button:hover,
+#footer-newsletter .ewnewsletter .ew-newsletter-wrap #subbutton,
+.author-title,
+.author-name {
+	font-size: 24px;
+	font-size: 1.5rem;
+}
+
+.instagram-button .button,
+.widget .hentry .entry-title,
+.widget,
+.social-navigation,
+.wp-caption .wp-caption-text {
+	font-size: 16px;
+	font-size: 1rem;
+}
+
+.sidebar .widget {
+	padding: 28px;
+}
+
+.widget ul {
+	list-style: none;
+	margin-left: 0;
+}
+
+.tagcloud a {
+	line-height: 1.75;
+}
+
+.site-footer .widget .widget-title {
+	line-height: 1.17;
+  	letter-spacing: 1px;
+}
+
+.post-wrapper .entry-title {
+	line-height: 1.25;
+}
+
+.site-footer .widget .section-heading-wrapper {
+	padding: 0;
+	text-align: left;
+}
+
+.sticky-post,
+.site-info,
+.comment-metadata,
+blockquote cite,
+blockquote small,
+.post-password-form label,
+.image-navigation,
+.comment-navigation,
+.site-navigation a {
+	font-size: 14px;
+	font-size: 0.875rem;
+}
+
+.post-navigation .nav-subtitle,
+.tagcloud a {
+	font-size: 12px;
+	font-size: 0.75rem;
+}
+
+body,
+button,
+input,
+select,
+textarea,
+blockquote,
+.entry-meta,
+.team-content-wrapper .entry-meta,
+.post-wrapper .entry-title {
+	font-family: 'Noto Serif', serif;
+}
+
+.site-description,
+.site-navigation a,
+.header-top-bar .contact-details li,
+.header-top-bar .contact-details li a,
+.drop-cap:first-letter,
+.post-navigation .nav-subtitle {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.site-title,
+.section-title,
+.entry-title,
+.widget .widget-title,
+.author-title,
+.author-name,
+.more-link,
+button,
+.button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.posts-navigation a,
+.site-main #infinite-handle span button,
+.header-media .more-link .more-button,
+#feature-slider-section .entry-summary,
+#feature-slider-section .entry-content,
+.custom-header-content .site-header-text,
+#feature-slider-section .more-link .more-button,
+#promotion-section .more-link .more-button,
+.pagination .page-numbers,
+.my-account-label,
+.collection-wrapper .entry-header .entry-meta,
+.woocommerce-Price-amount.amount,
+#reviews .comment-respond .comment-reply-title,
+.woocommerce-review__author,
+#promotion-section .section-subtitle,
+#numbers-section.section .hentry-inner .entry-summary,
+#clock,
+.entry-breadcrumbs,
+.site-footer .widget .widget-title,
+#feature-slider-section .entry-header .sub-title,
+.home .header-media .custom-header-content .sub-title {
+    font-family: 'Amatic SC', cursive;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+	font-weight: bold;
+  	font-style: normal;
+  	font-stretch: normal;
+	margin: 0;
+	text-rendering: optimizeLegibility;
+	text-transform: uppercase;
+}
+
+.site-navigation a {
+	display: block;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 2.15;
+	letter-spacing: normal;
+	opacity: 0.6;
+	padding: 11px 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.site-navigation .current-menu-item > a, 
+.site-navigation .current_page_item > a {
+	opacity: 1;
+}
+
+.site-description {
+	font-size: 13px;
+	font-size: 0.8125rem;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 2.55;
+	letter-spacing: normal;
+	text-align: center;
+}
+
+.sidebar .widget .widget-title {
+	line-height: 1.75;
+    text-transform: uppercase;
+}
+
+.post-wrapper .entry-title {
+	font-size: 20px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.4;
+	letter-spacing: normal;
+	text-transform: capitalize;
+}
+
+#feature-slider-section .entry-title,
+#feature-slider-section .entry-header .sub-title,
+.home .custom-header-content .entry-title,
+.home .header-media .custom-header-content .sub-title,
+#promotion-section .section-subtitle,
+#team-content-section .section-title {
+	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.5);
+}
+
+p {
+	margin: 0 0 1.555555555555556em;
+}
+
+dfn,
+em,
+i {
+	font-style: normal;
+}
+
+blockquote {
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+	font-stretch: normal;
+	line-height: 1.4;
+	letter-spacing: normal;
+	margin: 28px 0;
+	text-align: center;
+}
+
+blockquote:before {
+	color: #ed3f27;
+    content: "\201C";
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+
+blockquote.alignright:before,
+blockquote.alignleft:before {
+	display: none;
+}
+
+blockquote.alignright {
+	text-align: right;
+	border-right: solid 3px #ed3f27;
+}
+
+blockquote.alignleft {
+	text-align: left;
+	border-left: solid 3px #ed3f27;
+}
+
+blockquote.alignright p {
+	padding-right: 21px;
+}
+
+blockquote.alignleft p {
+	padding-left: 21px;
+}
+
+blockquote p {
+	margin-bottom: 1.4em;
+}
+
+blockquote cite,
+blockquote small {
+	display: block;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.62;
+}
+
+blockquote em,
+blockquote i {
+	font-style: italic;
+}
+
+blockquote > :last-child {
+	margin-bottom: 0;
+}
+
+address {
+	font-style: normal;
+	margin: 0 0 1.555555555555556em;
+}
+
+code,
+kbd,
+tt,
+var,
+samp,
+pre {
+	font-family: Inconsolata, monospace;
+	font-style: normal;
+}
+
+pre {
+	margin: 0 0 1.555555555555556em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.555555555555556em;
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+mark,
+ins,
+code {
+	padding: 0.125em 0.25em;
+}
+
+abbr,
+acronym {
+	border-bottom: 1px dotted #eee;
+	cursor: help;
+}
+
+mark,
+ins {
+	text-decoration: none;
+}
+
+big {
+	font-size: 125%;
+}

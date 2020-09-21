@@ -1,0 +1,88 @@
+.clients-content-wrapper .hentry {
+	padding: 0 15px 15px 15px;
+}
+
+#clients-section .controller {
+    bottom: -21px;
+    display: none;
+	left: 50%;
+    position: absolute;
+    text-align: center;
+    transform: translateX(-50%);
+    width: 100%;
+    z-index: 101;
+}
+
+#clients-section .cycle-prev,
+#clients-section .cycle-next {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    text-decoration: none;
+    -moz-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    z-index: 199;
+
+}
+
+#clients-section .icon {
+    font-size: 32px;
+    font-size: 2rem;
+    top: -14px;
+    width: 18px;
+}
+
+#clients-section .cycle-prev .icon {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+#clients-section .cycle-next .icon {
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+#clients-section .cycle-pager {
+    display: inline-block;
+    font-family: arial;
+    font-size: 54px;
+    line-height: 0;
+}
+
+#clients-section .cycle-pager span {
+    clear: both;
+    cursor: pointer;
+    display: inline-block;
+    height: 16px;
+    line-height: 16px;
+    margin: 0 7px;
+    width: 16px;
+}
+
+#clients-section .cycle-pager > * {
+    cursor: pointer;
+}
+
+.clients-content-wrapper {
+    position: relative;
+    padding: 0 15px;
+}
+
+#clients-section .post-thumbnail img {
+   filter: gray;
+  -webkit-filter: grayscale(1);
+}
+
+#clients-section .post-thumbnail img:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+
+#clients-section .controller {
+    display: none;
+}
